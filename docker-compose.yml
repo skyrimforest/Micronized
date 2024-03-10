@@ -1,0 +1,22 @@
+version: '3'
+services:
+  Pro01PreProcessor:
+    container_name: testbackencompose
+    build:
+      context: ./TestBacken
+      dockerfile: Dockerfile
+    ports:
+      - "9999:8080"
+  Pro02FaceDetector:
+    container_name: testfrontcompose
+    build:
+      context: ./TestPro
+      dockerfile: Dockerfile
+    ports:
+      - "9998:80"
+  Pro03PoseEstimator:
+
+  Pro04DockerDispatcher:
+
+  Pro05RabbitMQ:
+

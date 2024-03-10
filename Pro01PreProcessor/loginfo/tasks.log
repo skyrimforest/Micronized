@@ -1,0 +1,8 @@
+03/08-20:52:09 - tasks.py[23] - INFO - sendpics_task start
+03/08-20:54:50 - tasks.py[38] - INFO - sendpics_task down,121 images have been processed,160.7519028186798 used
+03/08-21:14:25 - tasks.py[23] - INFO - sendpics_task start
+03/09-02:18:57 - tasks.py[23] - INFO - sendpics_task start
+03/09-02:20:24 - tasks.py[39] - INFO - sendpics_task down,121 images have been processed,86.969801902771 used
+03/09-02:22:21 - tasks.py[11] - INFO - sendpics_task start
+03/09-02:23:30 - tasks.py[11] - INFO - sendpics_task start
+03/09-02:24:40 - tasks.py[27] - INFO - sendpics_task down,121 images have been processed,70.11640191078186 used
