@@ -1,4 +1,5 @@
-const URL_PREFIX = "http://192.168.227.133:12000/";
+import PREFIXES  from "./device";
+const URL_PREFIX = PREFIXES.CLOUD_PREFIX+":12000/";
 const APIS_PRO01:{[key:string]:string} = {
     pro01test:"test",
     pro01sendtest:"pics/test",

@@ -1,3 +1,5 @@
+import requests
+
 import BaseConfig
 from RMQ import rmq_send,rmq_recv
 import time
@@ -7,6 +9,7 @@ from SkyLogger import get_logger
 from poseestimate_controller.FaceAlignment import FaceAlignmentCNN,draw_axis
 import torch
 import cv2
+from API import dispatcher_api
 
 logger = get_logger("tasks")
 
@@ -79,6 +82,16 @@ def my_draw_callback(ch, method, properties, body):
     ch.basic_ack(delivery_tag=method.delivery_tag)
     end = time.time()
     logger.info(f"draw down,{cnt} images have been drawed,{end - start} second used")
+    data={
+        "uuid":body['uuid'],
+        "count": cnt,
+        'image_name':image_name,
+        'detected':len(head_pose),
+        'learning':len(head_pose), #todo
+        "total_time":end-start,
+    }
+    res=requests.post(dispatcher_api.API['estimateinfo'],json=data)
+    logger.info(f"collected down,result is {res.text}")
 
 def recv_draw():
     logger.info("get pics and draw it")

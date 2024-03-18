@@ -1,9 +1,14 @@
+import requests
+
+import BaseConfig
 from RMQ import rmq_send
 import os
 import time
 import cv2
 from SkyLogger import get_logger
 import uuid
+from API import dispatcher_api
+
 
 logger = get_logger("tasks")
 
@@ -26,3 +31,10 @@ def sendpics_task(picsfilePath:str):
     end_time = time.time()
     logger.info(f"sendpics_task down,{cnt} images have been processed,{end_time-start_time} used")
 
+    total_info={
+                'uuid': uid, #运行次数标识符,系统一次运行只接受一种uuid
+                'count':cnt,
+                'total_time':end_time-start_time
+            }
+    res=requests.post(dispatcher_api.API['imageinfo'],json=total_info)
+    logger.info(f"collected down,result is {res.text}")

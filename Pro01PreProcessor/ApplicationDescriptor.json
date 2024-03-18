@@ -1,0 +1,81 @@
+{
+    "sla_version": "v2.0",
+    "customerID": "Admin",
+    "applications": [
+        {
+            "applicationID": "",
+            "application_name": "allin",
+            "application_namespace": "all",
+            "application_desc": "An application that contains all containers",
+            "microservices": [
+                {
+                    "microserviceID": "",
+                    "microservice_name": "pro01",
+                    "microservice_namespace": "cvpro",
+                    "virtualization": "container",
+                    "memory": 100,
+                    "vcpus": 1,
+                    "vgpus": 0,
+                    "vtpus": 0,
+                    "bandwidth_in": 0,
+                    "bandwidth_out": 0,
+                    "storage": 0,
+                    "code": "docker.io/library/nginx:latest",
+                    "state": "",
+                    "port": "12000:12000"
+                },
+                {
+                    "microserviceID": "",
+                    "microservice_name": "pro02",
+                    "microservice_namespace": "cvpro",
+                    "virtualization": "container",
+                    "memory": 100,
+                    "vcpus": 1,
+                    "vgpus": 0,
+                    "vtpus": 0,
+                    "bandwidth_in": 0,
+                    "bandwidth_out": 0,
+                    "storage": 0,
+                    "code": "docker.io/library/nginx:latest",
+                    "state": "",
+                    "port": "12001:12001"
+                },
+                {
+                    "microserviceID": "",
+                    "microservice_name": "pro03",
+                    "microservice_namespace": "cvpro",
+                    "virtualization": "container",
+                    "memory": 100,
+                    "vcpus": 1,
+                    "vgpus": 0,
+                    "vtpus": 0,
+                    "bandwidth_in": 0,
+                    "bandwidth_out": 0,
+                    "storage": 0,
+                    "code": "docker.io/library/nginx:latest",
+                    "state": "",
+                    "port": "12002:12002"
+                },
+                {
+                    "microserviceID": "",
+                    "microservice_name": "pro04",
+                    "microservice_namespace": "cvpro",
+                    "virtualization": "container",
+                    "memory": 100,
+                    "vcpus": 1,
+                    "vgpus": 0,
+                    "vtpus": 0,
+                    "bandwidth_in": 0,
+                    "bandwidth_out": 0,
+                    "storage": 0,
+                    "code": "docker.io/library/nginx:latest",
+                    "state": "",
+                    "port": "12003:12003"
+                }
+            ]
+        }
+    ]
+}
+
+
+

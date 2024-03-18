@@ -1,0 +1,5 @@
+Micro Service Of FaceDetection And PoseEstimation
+
+
+When deploying, you should change these files:
+1.The BaseConfig Pakage in Pro01-Pro04, each IP should be viewed. And the RMQ USERNAME and PASSWORD.

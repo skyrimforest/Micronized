@@ -53,6 +53,8 @@ import {ref} from "vue"
                 </span>
             </el-col>
         </el-row>
+        <el-row></el-row>
+
     </div>
     </div>
     
@@ -66,6 +68,12 @@ import {ref} from "vue"
     border: 1px solid grey;
     color: black;
 }
+
+.el-table {
+    border: 1px solid grey;
+    color: black;
+}
+
 .el-input {
     border: 1px solid grey;
     color: #ffffff

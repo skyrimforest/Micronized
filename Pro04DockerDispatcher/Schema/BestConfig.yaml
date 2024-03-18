@@ -1,0 +1,41 @@
+bestconfig:
+
+  # preprocessor module
+  pro01:
+    Memory: 100
+    CPU: 50
+    BandWidth: 200
+    place: edge
+
+    Reso: 480
+
+  # face detection module
+  pro02:
+    Memory: 100
+    CPU: 50
+    BandWidth: 200
+    place: edge
+
+    NMS: Soft
+    Threshold: 0.7
+
+  # pose estimation module
+  pro03:
+    Memory: 100
+    CPU: 50
+    BandWidth: 200
+    place: edge
+
+  # docker dispatch module
+  pro04:
+    Memory: 100
+    CPU: 50
+    BandWidth: 200
+    place: edge
+
+  # rabbitmq module
+  pro05:
+    Memory: 100
+    CPU: 50
+    BandWidth: 200
+    place: edge

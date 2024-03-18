@@ -1,21 +1,32 @@
 <script setup lang="ts">
 import { useRouter } from "vue-router";
+import { ElMessage, ElMessageBox } from 'element-plus'
 
 const router = useRouter();
 function jump2test() {
   router.push("test")
 }
-function jump2preprocess(){
+function jump2preprocess() {
   router.push("preprocess")
 }
-function jump2detection(){
+function jump2detection() {
   router.push("detection")
 }
-function jump2estimation(){
+function jump2estimation() {
   router.push("estimation")
 }
-function jump2dispatch(){
+function jump2dispatch() {
   router.push("dispatch")
+}
+function jump2logout() {
+  ElMessageBox.alert('已顺利退出系统！', '感谢您的使用', {
+    confirmButtonText: 'OK',
+  })
+}
+function jump2feedback() {
+  ElMessageBox.alert('感谢您的反馈！', '已反馈', {
+    confirmButtonText: 'OK',
+  })
 }
 </script>
 
@@ -39,8 +50,8 @@ function jump2dispatch(){
                 </el-icon>
                 <template #dropdown>
                   <el-dropdown-menu>
-                    <el-dropdown-item @click="onclick_back">FeedBack</el-dropdown-item>
-                    <el-dropdown-item @click="onclick_quit">Log Out</el-dropdown-item>
+                    <el-dropdown-item @click="jump2feedback">FeedBack</el-dropdown-item>
+                    <el-dropdown-item @click="jump2logout">Log Out</el-dropdown-item>
                   </el-dropdown-menu>
                 </template>
               </el-dropdown>

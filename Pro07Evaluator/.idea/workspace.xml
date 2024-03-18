@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a9df110-ce4f-436b-9f93-553f983ecf12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Pro01PreProcessor/API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro01PreProcessor/API/dispatcher_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro01PreProcessor/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro02FaceDetector/API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro02FaceDetector/API/dispatcher_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro02FaceDetector/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/API/dispatcher_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/Schema/BestConfig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/Schema/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/Schema/collector_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/Schema/testyaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_102.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_105.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_113.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_117.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_121.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_130.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_141.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_145.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_163.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_164.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_165.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_171.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_174.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_183.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_199.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_203.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_212.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_238.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_243.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_254.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_267.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_268.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_281.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_288.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_289.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_292.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_306.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_331.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_333.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_335.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_337.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_341.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_374.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_375.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_379.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_384.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_389.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_396.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_409.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_410.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_417.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_420.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_429.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_438.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_452.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_463.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_464.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_475.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_483.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_485.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_515.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_518.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_520.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_531.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_537.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_538.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_542.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_543.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_545.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_561.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_571.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_572.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_575.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_587.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_59.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_591.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_607.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_61.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_610.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_613.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_621.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_625.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_626.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_627.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_639.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_640.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_642.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_656.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_657.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_666.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_671.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_678.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_679.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_682.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_686.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_697.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_701.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_705.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_707.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_71.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_716.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_722.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_730.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_734.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_740.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_75.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_764.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_765.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_773.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_788.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_791.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_795.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_82.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_830.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_840.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_850.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_853.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_854.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_859.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_860.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_866.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_885.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_891.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_924.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/benchmark/person_per_pics/1_Handshaking_Handshaking_1_940.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/collector/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/collector/collector_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/collector/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/dboperator/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/dboperator/query_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/dispatcher/re_deploy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/evaluator/judgement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/loginfo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP-master/.idea/mAP-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/.idea/Pro01PreProcessor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/.idea/Pro01PreProcessor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/BaseConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/BaseConfig/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/pics.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/pics.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/preprocessor.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/preprocessor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/tasks.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/loginfo/tasks.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro01PreProcessor/preprocess_controller/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro01PreProcessor/preprocess_controller/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro02FaceDetector/BaseConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro02FaceDetector/BaseConfig/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro02FaceDetector/facedetect_controller/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro02FaceDetector/facedetect_controller/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro02FaceDetector/loginfo/facedetect.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro02FaceDetector/loginfo/facedetect.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro02FaceDetector/loginfo/tasks.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro02FaceDetector/loginfo/tasks.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/BaseConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/BaseConfig/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/1_Handshaking_Handshaking_1_102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/estimate.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/estimate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/poseestimate.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/poseestimate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/tasks.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/loginfo/tasks.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/poseestimate_controller/controller_estimate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/poseestimate_controller/controller_estimate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro03PoseEstimator/poseestimate_controller/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro03PoseEstimator/poseestimate_controller/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/Pro04DockerDispatcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/Pro04DockerDispatcher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro04DockerDispatcher/BaseConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/BaseConfig/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro04DockerDispatcher/db_controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/dboperator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro04DockerDispatcher/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro04DockerDispatcher/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/components/PageIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/components/PageIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/utils/api_pro01.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/utils/api_pro01.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildDockerDispatch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildDockerDispatch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildFaceDetection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildFaceDetection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildPoseEstimation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildPoseEstimation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildPreProcess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Pro06FrontPage/DashBoard/src/views/IndexChildPreProcess.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README" beforeDir="false" afterPath="$PROJECT_DIR$/../README" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2dgInHgvJXF4SO7916qGvcQ2mWm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Project/PythonPro/BiShePro/Pro07Evaluator",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9df110-ce4f-436b-9f93-553f983ecf12" name="Changes" comment="" />
+      <created>1710423460371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710423460371</updated>
+      <workItem from="1710423461892" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

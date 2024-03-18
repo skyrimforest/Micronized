@@ -2,11 +2,11 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from SkyLogger import get_logger
-
+from collector import collector_controller
 # from preprocess_controller import controller_pics
 
 app = FastAPI()
-# app.include_router(controller_pics.router)
+app.include_router(collector_controller.router)
 
 logger=get_logger('dispatcher')
 
@@ -27,7 +27,7 @@ async def dispatchtest():
     return {"message": "dispatch test success"}
 
 if __name__ == '__main__':
-    logger.info('preprocessor start...')
+    logger.info('dispatcher start...')
     uvicorn.run("main:app",host="0.0.0.0",port=12003,reload=True)
 
 

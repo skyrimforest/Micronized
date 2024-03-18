@@ -4,7 +4,8 @@ import json
 import numpy as np
 from .FaceDetection import FaceDetection
 from SkyLogger import get_logger
-
+import requests
+from API import dispatcher_api
 logger = get_logger("tasks")
 
 args = {
@@ -46,6 +47,14 @@ def my_callback(ch, method, properties, body):
     end = time.time()
     logger.info(f"send_task down,{cnt} images have been processed,{end-start} second used")
 
+    data={
+        "uuid":body['uuid'],
+        "count": cnt,
+        "image_name": image_name,
+        "detected": len(boxes),
+        "total_time":end-start
+    }
 
-
+    res=requests.post(dispatcher_api.API['detectinfo'],json=data)
+    logger.info(f"collected down,result is {res.text}")
 
