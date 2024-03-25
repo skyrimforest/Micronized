@@ -20,7 +20,7 @@ create table if not exists imageinfo (
     uuid TEXT,
     count INTEGER,
     total_time FLOAT,
-    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S', 'now'))
+    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now','localtime'))
 )
 """
 # class DetectInfo(BaseModel):
@@ -37,7 +37,7 @@ create table if not exists detectinfo(
     image_name TEXT,
     detected INTEGER,
     total_time FLOAT,
-    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S', 'now'))
+    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
 )
 
 """
@@ -57,12 +57,12 @@ create table if not exists estimateinfo(
     detected INTEGER,
     learning INTEGER,
     total_time FLOAT,
-    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S', 'now'))
+    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
 )
 """
 
 # result info包括:
-#
+# todo
 result_info_table_sql="""
 create table if not exists resultinfo(
     id INTEGER PRIMARY KEY,
@@ -72,10 +72,39 @@ create table if not exists resultinfo(
     detected INTEGER,
     learning INTEGER,
     total_time FLOAT,
-    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S', 'now'))
+    start_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
+)
+
+"""
+# to record real start time we should count from info haven't been created.
+# class StartTimeInfo(BaseModel):
+#     uuid: str           # id
+#     count: int          # 第几张
+#     image_name:str      # 照片名称
+#     time:str            # time needed
+start_info_table_sql="""
+create table if not exists startinfo(
+    id INTEGER PRIMARY KEY,
+    uuid TEXT,
+    count INTEGER,
+    image_name TEXT,
+    start_time TEXT
+)
+
+"""
+# class EndTimeInfo(BaseModel):
+#     uuid: str           # id
+#     count: int          # 第几张
+#     image_name:str      # 照片名称
+end_info_table_sql="""
+create table if not exists endinfo(
+    id INTEGER PRIMARY KEY,
+    uuid TEXT,
+    count INTEGER,
+    image_name TEXT,
+    end_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
 )
 """
-
 cur.execute(
     image_info_table_sql
 )
@@ -86,6 +115,14 @@ cur.execute(
 
 cur.execute(
     estimate_info_table_sql
+)
+
+cur.execute(
+    start_info_table_sql
+)
+
+cur.execute(
+    end_info_table_sql
 )
 
 # current_time = datetime.now()

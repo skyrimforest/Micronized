@@ -19,6 +19,18 @@ class EstimateInfo(BaseModel):
     learning:int        # 正在听课
     total_time: float   # 处理本张的时间
 
+class StartTimeInfo(BaseModel):
+    uuid: str           # id
+    count: int          # 第几张
+    image_name:str      # 照片名称
+    start_time:str            # time needed
+
+class EndTimeInfo(BaseModel):
+    uuid: str           # id
+    count: int          # 第几张
+    image_name:str      # 照片名称
+
+
 class Config(BaseModel):
     uuid: str           # id
     count: int          # 第几张

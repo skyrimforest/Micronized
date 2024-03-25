@@ -28,7 +28,7 @@ async def facedetecttest():
 
 if __name__ == '__main__':
     logger.info('facedetect start...')
-    uvicorn.run("main:app",host="0.0.0.0",port=12001,reload=True)
+    uvicorn.run("main:app",host="0.0.0.0",port=BaseConfig.OWN_PORT,reload=True)
 
 
 

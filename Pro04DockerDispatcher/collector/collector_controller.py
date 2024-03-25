@@ -15,6 +15,28 @@ async def picstest():
     logger.info("dispatcher collector test success")
     return {"message": "dispatcher collector test success"}
 
+# start time collect
+@router.post("/starttime")
+async def get_starttime(time_info:collector_model.StartTimeInfo):
+    insert_starttime_sql = """
+         insert into startinfo (uuid, count, image_name,start_time)
+        VALUES (?, ?, ?,?)
+        """
+    data = (time_info.uuid, time_info.count, time_info.image_name,time_info.start_time)
+    query_service.do_insert(insert_starttime_sql, data)
+    return {"success": True}
+
+# end time collect
+@router.post("/endtime")
+async def get_endtime(time_info:collector_model.EndTimeInfo):
+    insert_endtime_sql = """
+         insert into endinfo (uuid, count, image_name)
+        VALUES (?, ?, ?)
+        """
+    data = (time_info.uuid, time_info.count, time_info.image_name)
+    query_service.do_insert(insert_endtime_sql, data)
+    return {"success": True}
+
 # 预处理模块信息收集
 @router.post("/imageinfo")
 async def imageinfo_collector(image_info:collector_model.ImageInfo):
@@ -107,6 +129,8 @@ async def estimateinfo_collector():
         }
         res_dict.append(temp)
     return {"success": True, "data": res_dict}
+
+
 # 容器调度相关
 
 

@@ -1,3 +1,4 @@
+import BaseConfig
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -28,7 +29,7 @@ async def poseestimatetest():
 
 if __name__ == '__main__':
     logger.info('pose estimate start...')
-    uvicorn.run("main:app",host="0.0.0.0",port=12002,reload=True)
+    uvicorn.run("main:app",host="0.0.0.0",port=BaseConfig.OWN_PORT,reload=True)
 
 
 

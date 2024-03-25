@@ -90,7 +90,16 @@ def my_draw_callback(ch, method, properties, body):
         'learning':len(head_pose), #todo
         "total_time":end-start,
     }
+    # push log to db
     res=requests.post(dispatcher_api.API['estimateinfo'],json=data)
+
+    end_time_info={
+        'uuid': body['uuid'],  # 运行次数标识符,系统一次运行只接受一种uuid
+        'count': cnt,
+        'image_name': image_name
+    }
+    # push end time to db
+    requests.post(dispatcher_api.API['endtime'],json=end_time_info)
     logger.info(f"collected down,result is {res.text}")
 
 def recv_draw():
