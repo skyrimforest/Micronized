@@ -1,26 +1,40 @@
-03/08-20:52:09 - tasks.py[23] - INFO - sendpics_task start
-03/08-20:54:50 - tasks.py[38] - INFO - sendpics_task down,121 images have been processed,160.7519028186798 used
-03/08-21:14:25 - tasks.py[23] - INFO - sendpics_task start
-03/09-02:18:57 - tasks.py[23] - INFO - sendpics_task start
-03/09-02:20:24 - tasks.py[39] - INFO - sendpics_task down,121 images have been processed,86.969801902771 used
-03/09-02:22:21 - tasks.py[11] - INFO - sendpics_task start
-03/09-02:23:30 - tasks.py[11] - INFO - sendpics_task start
-03/09-02:24:40 - tasks.py[27] - INFO - sendpics_task down,121 images have been processed,70.11640191078186 used
-03/14-15:01:16 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:03:00 - tasks.py[32] - INFO - sendpics_task down,121 images have been processed,104.00656747817993 used
-03/14-15:03:02 - tasks.py[40] - INFO - collected down,result is {"detail":[{"type":"model_attributes_type","loc":["body"],"msg":"Input should be a valid dictionary or object to extract fields from","input":"uuid=ad1f023c-3917-42b4-9e1f-fba5a9d206a6&count=121&total_time=104.00656747817993","url":"https://errors.pydantic.dev/2.6/v/model_attributes_type"}]}
-03/14-15:10:37 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:11:52 - tasks.py[32] - INFO - sendpics_task down,121 images have been processed,74.50983333587646 used
-03/14-15:11:54 - tasks.py[40] - INFO - collected down,result is Internal Server Error
-03/14-15:15:50 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:18:57 - tasks.py[32] - INFO - sendpics_task down,121 images have been processed,186.45353937149048 used
-03/14-15:18:59 - tasks.py[40] - INFO - collected down,result is Internal Server Error
-03/14-15:22:45 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:27:52 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:39:19 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:39:50 - tasks.py[16] - INFO - sendpics_task start
-03/14-15:41:51 - tasks.py[32] - INFO - sendpics_task down,121 images have been processed,120.72777581214905 used
-03/14-15:41:53 - tasks.py[40] - INFO - collected down,result is {"success":true}
-03/14-18:57:58 - tasks.py[16] - INFO - sendpics_task start
-03/14-18:59:19 - tasks.py[32] - INFO - sendpics_task down,121 images have been processed,80.30068755149841 used
-03/14-18:59:21 - tasks.py[40] - INFO - collected down,result is {"success":true}
+04/05-14:27:47 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:27:47 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:27:48 - tasks.py[91] - INFO - video_sendpics_task down,0 images have been processed,0.3954946994781494 used
+04/05-14:27:48 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:28:35 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:28:35 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:29:33 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:29:33 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:29:43 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:29:43 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:29:44 - tasks.py[91] - INFO - video_sendpics_task down,0 images have been processed,0.37988734245300293 used
+04/05-14:29:44 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:34:54 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:34:54 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:35:27 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:35:27 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin640480/manin640480.mp4 start
+04/05-14:35:46 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:35:46 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin12896/manin12896.mp4 start
+04/05-14:35:50 - tasks.py[91] - INFO - video_sendpics_task down,284 images have been processed,3.91585636138916 used
+04/05-14:35:50 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:40:12 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:40:12 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin12896/manin12896.mp4 start
+04/05-14:40:16 - tasks.py[91] - INFO - video_sendpics_task down,284 images have been processed,4.299360990524292 used
+04/05-14:40:16 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:40:43 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:40:43 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin160120/manin160120.mp4 start
+04/05-14:40:48 - tasks.py[91] - INFO - video_sendpics_task down,297 images have been processed,5.374649286270142 used
+04/05-14:40:48 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:41:17 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:41:17 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin480360/manin480360.mp4 start
+04/05-14:42:08 - tasks.py[91] - INFO - video_sendpics_task down,346 images have been processed,51.653212547302246 used
+04/05-14:42:08 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:42:18 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:42:18 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin640480/manin640480.mp4 start
+04/05-14:43:43 - tasks.py[91] - INFO - video_sendpics_task down,353 images have been processed,84.49236369132996 used
+04/05-14:43:43 - tasks.py[99] - INFO - collected down,result is {"success":true}
+04/05-14:45:06 - tasks.py[62] - INFO - video sendpics_task start
+04/05-14:45:06 - tasks.py[69] - INFO - /home/skyrim/Desktop/MyFile/Micronized/Pro01PreProcessor/inputvideo/manin19201080/manin.mp4 start
+04/05-14:54:14 - tasks.py[91] - INFO - video_sendpics_task down,398 images have been processed,548.5185103416443 used
+04/05-14:54:14 - tasks.py[99] - INFO - collected down,result is {"success":true}

@@ -2,7 +2,8 @@ import os
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 
-RMQ_IP='10.30.0.1'
+RMQ_IP='10.30.0.5'
+# RMQ_IP='localhost'
 RMQ_USER='skyrim'
 RMQ_PASS='111111'
 RMQ_QUEUE='dockerdispatcher'

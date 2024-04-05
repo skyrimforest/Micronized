@@ -5,10 +5,10 @@ from fastapi.middleware.cors import CORSMiddleware
 import BaseConfig
 from SkyLogger import get_logger
 
-from preprocess_controller import controller_pics
-
+from preprocess_controller import controller_pics,controller_video
 app = FastAPI()
 app.include_router(controller_pics.router)
+app.include_router(controller_video.router)
 
 logger=get_logger('preprocessor')
 
