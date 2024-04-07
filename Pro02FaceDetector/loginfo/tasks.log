@@ -1,560 +1,569 @@
-03/08-00:10:06 - tasks.py[57] - INFO - recv_task start
-03/08-00:14:18 - tasks.py[60] - INFO - recv_task start
-03/08-00:14:20 - tasks.py[54] - INFO - single image has been detected in 1.7699248790740967 seconds
-03/08-00:14:23 - tasks.py[54] - INFO - single image has been detected in 2.5314483642578125 seconds
-03/08-00:14:25 - tasks.py[54] - INFO - single image has been detected in 1.3262622356414795 seconds
-03/08-00:14:30 - tasks.py[54] - INFO - single image has been detected in 4.216473817825317 seconds
-03/08-00:14:32 - tasks.py[54] - INFO - single image has been detected in 2.5021958351135254 seconds
-03/08-00:14:36 - tasks.py[54] - INFO - single image has been detected in 3.3700525760650635 seconds
-03/08-00:14:40 - tasks.py[54] - INFO - single image has been detected in 3.6269757747650146 seconds
-03/08-00:14:44 - tasks.py[54] - INFO - single image has been detected in 3.7165491580963135 seconds
-03/08-00:14:49 - tasks.py[54] - INFO - single image has been detected in 3.685171604156494 seconds
-03/08-00:14:53 - tasks.py[54] - INFO - single image has been detected in 3.451779842376709 seconds
-03/08-00:15:00 - tasks.py[54] - INFO - single image has been detected in 6.400500297546387 seconds
-03/08-00:15:03 - tasks.py[54] - INFO - single image has been detected in 3.0485150814056396 seconds
-03/08-00:15:07 - tasks.py[54] - INFO - single image has been detected in 3.136819362640381 seconds
-03/08-00:15:15 - tasks.py[54] - INFO - single image has been detected in 7.801056623458862 seconds
-03/08-00:15:18 - tasks.py[54] - INFO - single image has been detected in 2.7847445011138916 seconds
-03/08-00:15:26 - tasks.py[54] - INFO - single image has been detected in 7.087129831314087 seconds
-03/08-00:15:30 - tasks.py[54] - INFO - single image has been detected in 3.0710244178771973 seconds
-03/08-00:15:34 - tasks.py[54] - INFO - single image has been detected in 3.5678513050079346 seconds
-03/08-00:15:38 - tasks.py[54] - INFO - single image has been detected in 3.5174717903137207 seconds
-03/08-00:15:42 - tasks.py[54] - INFO - single image has been detected in 3.774683713912964 seconds
-03/08-00:15:46 - tasks.py[54] - INFO - single image has been detected in 3.6715118885040283 seconds
-03/08-00:15:50 - tasks.py[54] - INFO - single image has been detected in 3.483733892440796 seconds
-03/08-00:15:58 - tasks.py[54] - INFO - single image has been detected in 7.150039434432983 seconds
-03/08-00:16:01 - tasks.py[54] - INFO - single image has been detected in 2.978074550628662 seconds
-03/08-00:16:08 - tasks.py[54] - INFO - single image has been detected in 6.745492219924927 seconds
-03/08-00:16:15 - tasks.py[54] - INFO - single image has been detected in 6.235291957855225 seconds
-03/08-00:16:20 - tasks.py[54] - INFO - single image has been detected in 3.927920341491699 seconds
-03/08-00:25:10 - tasks.py[60] - INFO - recv_task start
-03/08-00:25:12 - tasks.py[54] - INFO - send_task down,1 images have been processed,2.195882797241211 second used
-03/08-00:25:14 - tasks.py[54] - INFO - send_task down,2 images have been processed,1.217494010925293 second used
-03/08-00:25:16 - tasks.py[54] - INFO - send_task down,3 images have been processed,1.300583839416504 second used
-03/08-00:25:19 - tasks.py[54] - INFO - send_task down,4 images have been processed,2.6663146018981934 second used
-03/08-00:25:22 - tasks.py[54] - INFO - send_task down,5 images have been processed,3.4630210399627686 second used
-03/08-00:25:26 - tasks.py[54] - INFO - send_task down,6 images have been processed,3.4038569927215576 second used
-03/08-00:25:30 - tasks.py[54] - INFO - send_task down,7 images have been processed,3.2278780937194824 second used
-03/08-00:25:35 - tasks.py[54] - INFO - send_task down,8 images have been processed,4.439956426620483 second used
-03/08-00:25:39 - tasks.py[54] - INFO - send_task down,9 images have been processed,3.9464712142944336 second used
-03/08-00:25:46 - tasks.py[54] - INFO - send_task down,10 images have been processed,6.410203695297241 second used
-03/08-00:25:49 - tasks.py[54] - INFO - send_task down,11 images have been processed,2.520327568054199 second used
-03/08-00:25:52 - tasks.py[54] - INFO - send_task down,12 images have been processed,3.0273337364196777 second used
-03/08-00:25:56 - tasks.py[54] - INFO - send_task down,13 images have been processed,3.9855875968933105 second used
-03/08-00:26:00 - tasks.py[54] - INFO - send_task down,14 images have been processed,3.5846805572509766 second used
-03/08-00:26:04 - tasks.py[54] - INFO - send_task down,15 images have been processed,3.3288702964782715 second used
-03/08-00:26:09 - tasks.py[54] - INFO - send_task down,16 images have been processed,5.194204568862915 second used
-03/08-00:26:13 - tasks.py[54] - INFO - send_task down,17 images have been processed,2.916043281555176 second used
-03/08-00:26:15 - tasks.py[54] - INFO - send_task down,18 images have been processed,2.590885877609253 second used
-03/08-00:26:20 - tasks.py[54] - INFO - send_task down,19 images have been processed,3.960571765899658 second used
-03/08-00:26:23 - tasks.py[54] - INFO - send_task down,20 images have been processed,2.6384191513061523 second used
-03/08-00:26:26 - tasks.py[54] - INFO - send_task down,21 images have been processed,2.9740467071533203 second used
-03/08-00:26:29 - tasks.py[54] - INFO - send_task down,22 images have been processed,2.296058177947998 second used
-03/08-00:26:31 - tasks.py[54] - INFO - send_task down,23 images have been processed,2.2644107341766357 second used
-03/08-00:26:34 - tasks.py[54] - INFO - send_task down,24 images have been processed,2.9594366550445557 second used
-03/08-00:26:38 - tasks.py[54] - INFO - send_task down,25 images have been processed,3.111649990081787 second used
-03/08-00:26:41 - tasks.py[54] - INFO - send_task down,26 images have been processed,2.8179752826690674 second used
-03/08-00:26:44 - tasks.py[54] - INFO - send_task down,27 images have been processed,2.911724328994751 second used
-03/08-00:26:47 - tasks.py[54] - INFO - send_task down,28 images have been processed,2.593811511993408 second used
-03/08-00:26:53 - tasks.py[54] - INFO - send_task down,29 images have been processed,5.70637583732605 second used
-03/08-00:26:57 - tasks.py[54] - INFO - send_task down,30 images have been processed,3.8246095180511475 second used
-03/08-00:27:00 - tasks.py[54] - INFO - send_task down,31 images have been processed,2.731333017349243 second used
-03/08-00:27:04 - tasks.py[54] - INFO - send_task down,32 images have been processed,3.1135661602020264 second used
-03/08-00:27:06 - tasks.py[54] - INFO - send_task down,33 images have been processed,2.531386137008667 second used
-03/08-00:27:11 - tasks.py[54] - INFO - send_task down,34 images have been processed,4.1617021560668945 second used
-03/08-00:27:14 - tasks.py[54] - INFO - send_task down,35 images have been processed,2.9570224285125732 second used
-03/08-00:27:22 - tasks.py[54] - INFO - send_task down,36 images have been processed,7.217830419540405 second used
-03/08-00:27:25 - tasks.py[54] - INFO - send_task down,37 images have been processed,2.1905713081359863 second used
-03/08-00:27:28 - tasks.py[54] - INFO - send_task down,38 images have been processed,3.4696896076202393 second used
-03/08-00:27:31 - tasks.py[54] - INFO - send_task down,39 images have been processed,2.5789663791656494 second used
-03/08-00:27:34 - tasks.py[54] - INFO - send_task down,40 images have been processed,2.3922057151794434 second used
-03/08-00:27:39 - tasks.py[54] - INFO - send_task down,41 images have been processed,4.697734117507935 second used
-03/08-00:27:41 - tasks.py[54] - INFO - send_task down,42 images have been processed,1.7411346435546875 second used
-03/08-00:27:47 - tasks.py[54] - INFO - send_task down,43 images have been processed,5.243481636047363 second used
-03/08-00:27:50 - tasks.py[54] - INFO - send_task down,44 images have been processed,2.8991446495056152 second used
-03/08-00:27:51 - tasks.py[54] - INFO - send_task down,45 images have been processed,1.3254494667053223 second used
-03/08-00:27:55 - tasks.py[54] - INFO - send_task down,46 images have been processed,3.3422892093658447 second used
-03/08-00:27:59 - tasks.py[54] - INFO - send_task down,47 images have been processed,3.948232889175415 second used
-03/08-00:28:02 - tasks.py[54] - INFO - send_task down,48 images have been processed,2.9523496627807617 second used
-03/08-00:28:06 - tasks.py[54] - INFO - send_task down,49 images have been processed,3.346879243850708 second used
-03/08-00:28:13 - tasks.py[54] - INFO - send_task down,50 images have been processed,6.1344335079193115 second used
-03/08-00:28:17 - tasks.py[54] - INFO - send_task down,51 images have been processed,3.270827293395996 second used
-03/08-00:28:22 - tasks.py[54] - INFO - send_task down,52 images have been processed,5.332784414291382 second used
-03/08-00:28:25 - tasks.py[54] - INFO - send_task down,53 images have been processed,2.6000821590423584 second used
-03/08-00:28:28 - tasks.py[54] - INFO - send_task down,54 images have been processed,2.6323885917663574 second used
-03/08-00:28:31 - tasks.py[54] - INFO - send_task down,55 images have been processed,2.4984025955200195 second used
-03/08-00:28:33 - tasks.py[54] - INFO - send_task down,56 images have been processed,2.2576234340667725 second used
-03/08-00:28:39 - tasks.py[54] - INFO - send_task down,57 images have been processed,4.845938682556152 second used
-03/08-00:28:42 - tasks.py[54] - INFO - send_task down,58 images have been processed,3.5031323432922363 second used
-03/08-00:28:46 - tasks.py[54] - INFO - send_task down,59 images have been processed,2.791761636734009 second used
-03/08-00:28:49 - tasks.py[54] - INFO - send_task down,60 images have been processed,3.3705220222473145 second used
-03/08-00:28:52 - tasks.py[54] - INFO - send_task down,61 images have been processed,2.238060474395752 second used
-03/08-00:28:55 - tasks.py[54] - INFO - send_task down,62 images have been processed,2.6820456981658936 second used
-03/08-00:29:02 - tasks.py[54] - INFO - send_task down,63 images have been processed,6.828526735305786 second used
-03/08-00:29:07 - tasks.py[54] - INFO - send_task down,64 images have been processed,4.716358184814453 second used
-03/08-00:29:10 - tasks.py[54] - INFO - send_task down,65 images have been processed,2.065791368484497 second used
-03/08-00:29:13 - tasks.py[54] - INFO - send_task down,66 images have been processed,3.391533374786377 second used
-03/08-00:29:16 - tasks.py[54] - INFO - send_task down,67 images have been processed,2.487799882888794 second used
-03/08-00:29:19 - tasks.py[54] - INFO - send_task down,68 images have been processed,2.5785627365112305 second used
-03/08-00:29:22 - tasks.py[54] - INFO - send_task down,69 images have been processed,2.875589370727539 second used
-03/08-00:29:26 - tasks.py[54] - INFO - send_task down,70 images have been processed,4.0034191608428955 second used
-03/08-00:29:30 - tasks.py[54] - INFO - send_task down,71 images have been processed,3.100897789001465 second used
-03/08-00:29:33 - tasks.py[54] - INFO - send_task down,72 images have been processed,2.765004873275757 second used
-03/08-00:29:36 - tasks.py[54] - INFO - send_task down,73 images have been processed,3.10756516456604 second used
-03/08-00:29:39 - tasks.py[54] - INFO - send_task down,74 images have been processed,2.620035409927368 second used
-03/08-00:29:43 - tasks.py[54] - INFO - send_task down,75 images have been processed,3.501556396484375 second used
-03/08-00:29:48 - tasks.py[54] - INFO - send_task down,76 images have been processed,4.914979696273804 second used
-03/08-00:29:51 - tasks.py[54] - INFO - send_task down,77 images have been processed,2.4907515048980713 second used
-03/08-00:29:54 - tasks.py[54] - INFO - send_task down,78 images have been processed,2.618532419204712 second used
-03/08-00:29:58 - tasks.py[54] - INFO - send_task down,79 images have been processed,3.7139463424682617 second used
-03/08-00:30:03 - tasks.py[54] - INFO - send_task down,80 images have been processed,4.580140829086304 second used
-03/08-00:30:06 - tasks.py[54] - INFO - send_task down,81 images have been processed,2.7220346927642822 second used
-03/08-00:30:10 - tasks.py[54] - INFO - send_task down,82 images have been processed,3.6965012550354004 second used
-03/08-00:30:13 - tasks.py[54] - INFO - send_task down,83 images have been processed,2.901906728744507 second used
-03/08-00:30:17 - tasks.py[54] - INFO - send_task down,84 images have been processed,3.5625429153442383 second used
-03/08-00:30:21 - tasks.py[54] - INFO - send_task down,85 images have been processed,3.335749626159668 second used
-03/08-00:30:23 - tasks.py[54] - INFO - send_task down,86 images have been processed,2.2244136333465576 second used
-03/08-00:30:27 - tasks.py[54] - INFO - send_task down,87 images have been processed,3.3572232723236084 second used
-03/08-00:30:31 - tasks.py[54] - INFO - send_task down,88 images have been processed,3.2904679775238037 second used
-03/08-00:30:35 - tasks.py[54] - INFO - send_task down,89 images have been processed,3.6512062549591064 second used
-03/08-00:30:38 - tasks.py[54] - INFO - send_task down,90 images have been processed,3.1314165592193604 second used
-03/08-00:30:44 - tasks.py[54] - INFO - send_task down,91 images have been processed,5.535147666931152 second used
-03/08-00:30:52 - tasks.py[54] - INFO - send_task down,92 images have been processed,6.740839719772339 second used
-03/08-00:30:55 - tasks.py[54] - INFO - send_task down,93 images have been processed,2.9011707305908203 second used
-03/08-00:30:59 - tasks.py[54] - INFO - send_task down,94 images have been processed,3.740654468536377 second used
-03/08-00:31:03 - tasks.py[54] - INFO - send_task down,95 images have been processed,3.5661351680755615 second used
-03/08-00:31:10 - tasks.py[54] - INFO - send_task down,96 images have been processed,6.82435941696167 second used
-03/08-00:31:15 - tasks.py[54] - INFO - send_task down,97 images have been processed,3.661177396774292 second used
-03/08-00:31:21 - tasks.py[54] - INFO - send_task down,98 images have been processed,5.856460332870483 second used
-03/08-00:31:24 - tasks.py[54] - INFO - send_task down,99 images have been processed,2.4576852321624756 second used
-03/08-00:31:27 - tasks.py[54] - INFO - send_task down,100 images have been processed,2.7593019008636475 second used
-03/08-00:31:31 - tasks.py[54] - INFO - send_task down,101 images have been processed,3.6255929470062256 second used
-03/08-00:31:34 - tasks.py[54] - INFO - send_task down,102 images have been processed,3.5035171508789062 second used
-03/08-00:31:38 - tasks.py[54] - INFO - send_task down,103 images have been processed,3.002758741378784 second used
-03/08-00:31:41 - tasks.py[54] - INFO - send_task down,104 images have been processed,3.0738093852996826 second used
-03/08-00:31:47 - tasks.py[54] - INFO - send_task down,105 images have been processed,5.235918998718262 second used
-03/08-00:31:51 - tasks.py[54] - INFO - send_task down,106 images have been processed,3.714862823486328 second used
-03/08-00:31:53 - tasks.py[54] - INFO - send_task down,107 images have been processed,2.2797892093658447 second used
-03/08-00:32:00 - tasks.py[54] - INFO - send_task down,108 images have been processed,6.4682862758636475 second used
-03/08-00:32:03 - tasks.py[54] - INFO - send_task down,109 images have been processed,2.3912198543548584 second used
-03/08-00:32:10 - tasks.py[54] - INFO - send_task down,110 images have been processed,6.473999977111816 second used
-03/08-00:32:14 - tasks.py[54] - INFO - send_task down,111 images have been processed,3.1954665184020996 second used
-03/08-00:32:17 - tasks.py[54] - INFO - send_task down,112 images have been processed,3.2256956100463867 second used
-03/08-00:32:21 - tasks.py[54] - INFO - send_task down,113 images have been processed,3.34488844871521 second used
-03/08-00:32:24 - tasks.py[54] - INFO - send_task down,114 images have been processed,2.9285025596618652 second used
-03/08-00:32:27 - tasks.py[54] - INFO - send_task down,115 images have been processed,2.905911922454834 second used
-03/08-00:32:31 - tasks.py[54] - INFO - send_task down,116 images have been processed,3.446092367172241 second used
-03/08-00:32:37 - tasks.py[54] - INFO - send_task down,117 images have been processed,5.777040719985962 second used
-03/08-00:32:41 - tasks.py[54] - INFO - send_task down,118 images have been processed,3.0172579288482666 second used
-03/08-00:32:48 - tasks.py[54] - INFO - send_task down,119 images have been processed,6.62477970123291 second used
-03/08-00:32:55 - tasks.py[54] - INFO - send_task down,120 images have been processed,6.7301976680755615 second used
-03/08-00:32:59 - tasks.py[54] - INFO - send_task down,121 images have been processed,3.4326605796813965 second used
-03/08-01:44:40 - tasks.py[60] - INFO - recv_task start
-03/08-01:44:46 - tasks.py[54] - INFO - send_task down,1 images have been processed,6.346149921417236 second used
-03/08-01:44:50 - tasks.py[54] - INFO - send_task down,2 images have been processed,3.4092538356781006 second used
-03/08-01:44:54 - tasks.py[54] - INFO - send_task down,3 images have been processed,3.485199451446533 second used
-03/08-01:45:00 - tasks.py[54] - INFO - send_task down,4 images have been processed,5.134618043899536 second used
-03/08-01:45:03 - tasks.py[54] - INFO - send_task down,5 images have been processed,3.140526533126831 second used
-03/08-01:45:08 - tasks.py[54] - INFO - send_task down,6 images have been processed,4.272069692611694 second used
-03/08-01:55:43 - tasks.py[60] - INFO - recv_task start
-03/08-01:55:45 - tasks.py[54] - INFO - send_task down,1 images have been processed,1.762141466140747 second used
-03/08-01:55:47 - tasks.py[54] - INFO - send_task down,2 images have been processed,1.6214935779571533 second used
-03/08-01:55:48 - tasks.py[54] - INFO - send_task down,3 images have been processed,1.2386696338653564 second used
-03/08-01:55:51 - tasks.py[54] - INFO - send_task down,4 images have been processed,1.8417022228240967 second used
-03/08-01:55:54 - tasks.py[54] - INFO - send_task down,5 images have been processed,3.1025474071502686 second used
-03/08-01:55:57 - tasks.py[54] - INFO - send_task down,6 images have been processed,2.962691068649292 second used
-03/08-01:56:01 - tasks.py[54] - INFO - send_task down,7 images have been processed,3.1861050128936768 second used
-03/08-01:56:05 - tasks.py[54] - INFO - send_task down,8 images have been processed,3.2662665843963623 second used
-03/08-01:56:08 - tasks.py[54] - INFO - send_task down,9 images have been processed,3.3498451709747314 second used
-03/08-01:56:15 - tasks.py[54] - INFO - send_task down,10 images have been processed,6.244036436080933 second used
-03/08-01:56:18 - tasks.py[54] - INFO - send_task down,11 images have been processed,2.7909090518951416 second used
-03/08-01:56:22 - tasks.py[54] - INFO - send_task down,12 images have been processed,3.6139049530029297 second used
-03/08-01:56:27 - tasks.py[54] - INFO - send_task down,13 images have been processed,4.104004383087158 second used
-03/08-01:56:31 - tasks.py[54] - INFO - send_task down,14 images have been processed,3.678344964981079 second used
-03/08-01:56:34 - tasks.py[54] - INFO - send_task down,15 images have been processed,3.1765875816345215 second used
-03/08-01:56:37 - tasks.py[54] - INFO - send_task down,16 images have been processed,2.6997673511505127 second used
-03/08-01:56:41 - tasks.py[54] - INFO - send_task down,17 images have been processed,3.1942508220672607 second used
-03/08-01:56:44 - tasks.py[54] - INFO - send_task down,18 images have been processed,3.0648250579833984 second used
-03/08-01:56:47 - tasks.py[54] - INFO - send_task down,19 images have been processed,3.0406651496887207 second used
-03/08-01:56:50 - tasks.py[54] - INFO - send_task down,20 images have been processed,2.8593852519989014 second used
-03/08-01:56:54 - tasks.py[54] - INFO - send_task down,21 images have been processed,3.205221176147461 second used
-03/08-01:56:57 - tasks.py[54] - INFO - send_task down,22 images have been processed,3.1505637168884277 second used
-03/08-01:57:04 - tasks.py[54] - INFO - send_task down,23 images have been processed,5.889622211456299 second used
-03/08-01:57:07 - tasks.py[54] - INFO - send_task down,24 images have been processed,3.2979891300201416 second used
-03/08-01:57:11 - tasks.py[54] - INFO - send_task down,25 images have been processed,3.0098419189453125 second used
-03/08-01:57:15 - tasks.py[54] - INFO - send_task down,26 images have been processed,3.4818780422210693 second used
-03/08-01:57:17 - tasks.py[54] - INFO - send_task down,27 images have been processed,2.5462727546691895 second used
-03/08-01:57:21 - tasks.py[54] - INFO - send_task down,28 images have been processed,3.496872663497925 second used
-03/08-01:57:25 - tasks.py[54] - INFO - send_task down,29 images have been processed,3.8743739128112793 second used
-03/08-01:57:34 - tasks.py[54] - INFO - send_task down,30 images have been processed,8.00304102897644 second used
-03/08-01:57:38 - tasks.py[54] - INFO - send_task down,31 images have been processed,3.6048150062561035 second used
-03/08-01:57:41 - tasks.py[54] - INFO - send_task down,32 images have been processed,2.6973485946655273 second used
-03/08-01:57:45 - tasks.py[54] - INFO - send_task down,33 images have been processed,3.911850929260254 second used
-03/08-01:57:49 - tasks.py[54] - INFO - send_task down,34 images have been processed,3.5638949871063232 second used
-03/08-01:57:55 - tasks.py[54] - INFO - send_task down,35 images have been processed,5.7365453243255615 second used
-03/08-01:57:58 - tasks.py[54] - INFO - send_task down,36 images have been processed,2.526005268096924 second used
-03/08-01:58:05 - tasks.py[54] - INFO - send_task down,37 images have been processed,6.39397406578064 second used
-03/08-01:58:09 - tasks.py[54] - INFO - send_task down,38 images have been processed,2.8265984058380127 second used
-03/08-01:58:10 - tasks.py[54] - INFO - send_task down,39 images have been processed,1.1820423603057861 second used
-03/08-01:58:14 - tasks.py[54] - INFO - send_task down,40 images have been processed,3.5164287090301514 second used
-03/08-01:58:18 - tasks.py[54] - INFO - send_task down,41 images have been processed,4.055126190185547 second used
-03/08-01:58:21 - tasks.py[54] - INFO - send_task down,42 images have been processed,2.605307102203369 second used
-03/08-01:58:24 - tasks.py[54] - INFO - send_task down,43 images have been processed,2.9303810596466064 second used
-03/08-01:58:31 - tasks.py[54] - INFO - send_task down,44 images have been processed,5.584415674209595 second used
-03/08-01:58:35 - tasks.py[54] - INFO - send_task down,45 images have been processed,4.470442771911621 second used
-03/08-01:58:41 - tasks.py[54] - INFO - send_task down,46 images have been processed,5.3773088455200195 second used
-03/08-01:58:45 - tasks.py[54] - INFO - send_task down,47 images have been processed,3.655475378036499 second used
-03/08-01:58:49 - tasks.py[54] - INFO - send_task down,48 images have been processed,3.3568735122680664 second used
-03/08-02:00:48 - tasks.py[60] - INFO - recv_task start
-03/08-02:00:50 - tasks.py[54] - INFO - send_task down,1 images have been processed,1.2632014751434326 second used
-03/08-02:00:51 - tasks.py[54] - INFO - send_task down,2 images have been processed,1.244849443435669 second used
-03/08-02:00:54 - tasks.py[54] - INFO - send_task down,3 images have been processed,2.253406286239624 second used
-03/08-02:00:55 - tasks.py[54] - INFO - send_task down,4 images have been processed,0.9799580574035645 second used
-03/08-02:00:57 - tasks.py[54] - INFO - send_task down,5 images have been processed,1.060643196105957 second used
-03/08-02:00:59 - tasks.py[54] - INFO - send_task down,6 images have been processed,2.181567668914795 second used
-03/08-02:01:01 - tasks.py[54] - INFO - send_task down,7 images have been processed,1.7679409980773926 second used
-03/08-02:01:04 - tasks.py[54] - INFO - send_task down,8 images have been processed,2.684643507003784 second used
-03/08-02:01:11 - tasks.py[54] - INFO - send_task down,9 images have been processed,6.4362406730651855 second used
-03/08-02:01:17 - tasks.py[54] - INFO - send_task down,10 images have been processed,5.392215728759766 second used
-03/08-02:01:20 - tasks.py[54] - INFO - send_task down,11 images have been processed,2.943817138671875 second used
-03/08-02:01:25 - tasks.py[54] - INFO - send_task down,12 images have been processed,4.05060338973999 second used
-03/08-02:01:28 - tasks.py[54] - INFO - send_task down,13 images have been processed,2.8971307277679443 second used
-03/08-02:01:32 - tasks.py[54] - INFO - send_task down,14 images have been processed,3.456432580947876 second used
-03/08-02:01:35 - tasks.py[54] - INFO - send_task down,15 images have been processed,2.8664746284484863 second used
-03/08-02:01:40 - tasks.py[54] - INFO - send_task down,16 images have been processed,4.267895221710205 second used
-03/08-02:01:44 - tasks.py[54] - INFO - send_task down,17 images have been processed,3.1628968715667725 second used
-03/08-02:01:47 - tasks.py[54] - INFO - send_task down,18 images have been processed,3.248427152633667 second used
-03/08-02:01:51 - tasks.py[54] - INFO - send_task down,19 images have been processed,3.5330283641815186 second used
-03/08-02:01:55 - tasks.py[54] - INFO - send_task down,20 images have been processed,3.758967638015747 second used
-03/08-02:01:59 - tasks.py[54] - INFO - send_task down,21 images have been processed,3.39985990524292 second used
-03/08-02:02:05 - tasks.py[54] - INFO - send_task down,22 images have been processed,6.214824438095093 second used
-03/08-02:02:08 - tasks.py[54] - INFO - send_task down,23 images have been processed,2.360874652862549 second used
-03/08-02:02:11 - tasks.py[54] - INFO - send_task down,24 images have been processed,2.2562694549560547 second used
-03/08-02:02:14 - tasks.py[54] - INFO - send_task down,25 images have been processed,3.297858238220215 second used
-03/08-02:02:20 - tasks.py[54] - INFO - send_task down,26 images have been processed,5.096465826034546 second used
-03/08-02:02:24 - tasks.py[54] - INFO - send_task down,27 images have been processed,3.497934579849243 second used
-03/08-02:02:28 - tasks.py[54] - INFO - send_task down,28 images have been processed,3.710017681121826 second used
-03/08-02:02:31 - tasks.py[54] - INFO - send_task down,29 images have been processed,2.6785695552825928 second used
-03/08-02:02:35 - tasks.py[54] - INFO - send_task down,30 images have been processed,3.2775487899780273 second used
-03/08-02:02:39 - tasks.py[54] - INFO - send_task down,31 images have been processed,3.6733720302581787 second used
-03/08-02:02:42 - tasks.py[54] - INFO - send_task down,32 images have been processed,2.4551217555999756 second used
-03/08-02:02:46 - tasks.py[54] - INFO - send_task down,33 images have been processed,3.543234348297119 second used
-03/08-02:02:50 - tasks.py[54] - INFO - send_task down,34 images have been processed,3.7061784267425537 second used
-03/08-02:02:54 - tasks.py[54] - INFO - send_task down,35 images have been processed,3.5421969890594482 second used
-03/08-02:02:57 - tasks.py[54] - INFO - send_task down,36 images have been processed,3.294992685317993 second used
-03/08-02:03:03 - tasks.py[54] - INFO - send_task down,37 images have been processed,5.476755380630493 second used
-03/08-02:03:11 - tasks.py[54] - INFO - send_task down,38 images have been processed,6.7152369022369385 second used
-03/08-02:03:14 - tasks.py[54] - INFO - send_task down,39 images have been processed,2.9622528553009033 second used
-03/08-02:03:18 - tasks.py[54] - INFO - send_task down,40 images have been processed,3.6108460426330566 second used
-03/08-02:03:22 - tasks.py[54] - INFO - send_task down,41 images have been processed,3.3866653442382812 second used
-03/08-02:03:29 - tasks.py[54] - INFO - send_task down,42 images have been processed,6.755229473114014 second used
-03/08-02:03:33 - tasks.py[54] - INFO - send_task down,43 images have been processed,3.1845061779022217 second used
-03/08-02:03:40 - tasks.py[54] - INFO - send_task down,44 images have been processed,6.526763200759888 second used
-03/08-02:03:42 - tasks.py[54] - INFO - send_task down,45 images have been processed,1.9510676860809326 second used
-03/08-02:03:46 - tasks.py[54] - INFO - send_task down,46 images have been processed,3.47306227684021 second used
-03/08-02:03:51 - tasks.py[54] - INFO - send_task down,47 images have been processed,3.909297466278076 second used
-03/08-02:03:55 - tasks.py[54] - INFO - send_task down,48 images have been processed,3.5776939392089844 second used
-03/08-02:03:58 - tasks.py[54] - INFO - send_task down,49 images have been processed,3.1017777919769287 second used
-03/08-02:04:02 - tasks.py[54] - INFO - send_task down,50 images have been processed,3.174862861633301 second used
-03/08-02:04:08 - tasks.py[54] - INFO - send_task down,51 images have been processed,6.041893005371094 second used
-03/08-02:04:12 - tasks.py[54] - INFO - send_task down,52 images have been processed,2.893364191055298 second used
-03/08-02:04:15 - tasks.py[54] - INFO - send_task down,53 images have been processed,3.403578758239746 second used
-03/08-02:04:23 - tasks.py[54] - INFO - send_task down,54 images have been processed,6.5754194259643555 second used
-03/08-02:04:26 - tasks.py[54] - INFO - send_task down,55 images have been processed,2.9281320571899414 second used
-03/08-02:04:33 - tasks.py[54] - INFO - send_task down,56 images have been processed,6.059428453445435 second used
-03/08-02:04:37 - tasks.py[54] - INFO - send_task down,57 images have been processed,3.41801381111145 second used
-03/08-02:04:40 - tasks.py[54] - INFO - send_task down,58 images have been processed,2.782602071762085 second used
-03/08-02:04:44 - tasks.py[54] - INFO - send_task down,59 images have been processed,3.269157886505127 second used
-03/08-02:04:47 - tasks.py[54] - INFO - send_task down,60 images have been processed,3.193124294281006 second used
-03/08-02:04:50 - tasks.py[54] - INFO - send_task down,61 images have been processed,2.8529837131500244 second used
-03/08-02:04:53 - tasks.py[54] - INFO - send_task down,62 images have been processed,3.010773181915283 second used
-03/08-02:05:01 - tasks.py[54] - INFO - send_task down,63 images have been processed,6.75891900062561 second used
-03/08-02:05:04 - tasks.py[54] - INFO - send_task down,64 images have been processed,2.887084484100342 second used
-03/08-02:05:12 - tasks.py[54] - INFO - send_task down,65 images have been processed,6.969769239425659 second used
-03/08-02:05:18 - tasks.py[54] - INFO - send_task down,66 images have been processed,6.292050123214722 second used
-03/08-02:05:22 - tasks.py[54] - INFO - send_task down,67 images have been processed,3.6074726581573486 second used
-03/09-02:32:25 - tasks.py[47] - INFO - send_task down,1 images have been processed,2.0701005458831787 second used
-03/09-02:32:26 - tasks.py[47] - INFO - send_task down,2 images have been processed,0.9256811141967773 second used
-03/09-02:32:28 - tasks.py[47] - INFO - send_task down,3 images have been processed,1.1608142852783203 second used
-03/09-02:32:30 - tasks.py[47] - INFO - send_task down,4 images have been processed,1.9329302310943604 second used
-03/09-02:32:32 - tasks.py[47] - INFO - send_task down,5 images have been processed,1.115351915359497 second used
-03/09-02:32:33 - tasks.py[47] - INFO - send_task down,6 images have been processed,1.1121132373809814 second used
-03/09-02:32:35 - tasks.py[47] - INFO - send_task down,7 images have been processed,1.1517562866210938 second used
-03/09-02:32:36 - tasks.py[47] - INFO - send_task down,8 images have been processed,1.4782280921936035 second used
-03/09-02:32:38 - tasks.py[47] - INFO - send_task down,9 images have been processed,1.0413422584533691 second used
-03/09-02:32:40 - tasks.py[47] - INFO - send_task down,10 images have been processed,1.7218341827392578 second used
-03/09-02:32:41 - tasks.py[47] - INFO - send_task down,11 images have been processed,1.1008236408233643 second used
-03/09-02:32:43 - tasks.py[47] - INFO - send_task down,12 images have been processed,0.982698917388916 second used
-03/09-02:32:44 - tasks.py[47] - INFO - send_task down,13 images have been processed,1.2836871147155762 second used
-03/09-02:32:45 - tasks.py[47] - INFO - send_task down,14 images have been processed,0.9197180271148682 second used
-03/09-02:32:47 - tasks.py[47] - INFO - send_task down,15 images have been processed,1.3098156452178955 second used
-03/09-02:32:50 - tasks.py[47] - INFO - send_task down,16 images have been processed,2.0962836742401123 second used
-03/09-02:32:51 - tasks.py[47] - INFO - send_task down,17 images have been processed,0.9735147953033447 second used
-03/09-02:32:52 - tasks.py[47] - INFO - send_task down,18 images have been processed,1.1621932983398438 second used
-03/09-02:32:54 - tasks.py[47] - INFO - send_task down,19 images have been processed,1.4636693000793457 second used
-03/09-02:32:56 - tasks.py[47] - INFO - send_task down,20 images have been processed,1.3193745613098145 second used
-03/09-02:32:57 - tasks.py[47] - INFO - send_task down,21 images have been processed,0.9934799671173096 second used
-03/09-02:32:58 - tasks.py[47] - INFO - send_task down,22 images have been processed,0.6147692203521729 second used
-03/09-02:32:59 - tasks.py[47] - INFO - send_task down,23 images have been processed,0.9422030448913574 second used
-03/09-02:33:01 - tasks.py[47] - INFO - send_task down,24 images have been processed,1.1559345722198486 second used
-03/09-02:33:02 - tasks.py[47] - INFO - send_task down,25 images have been processed,1.191087007522583 second used
-03/09-02:33:04 - tasks.py[47] - INFO - send_task down,26 images have been processed,1.01084303855896 second used
-03/09-02:33:05 - tasks.py[47] - INFO - send_task down,27 images have been processed,1.1102726459503174 second used
-03/09-02:33:06 - tasks.py[47] - INFO - send_task down,28 images have been processed,1.0354716777801514 second used
-03/09-02:33:09 - tasks.py[47] - INFO - send_task down,29 images have been processed,2.115934133529663 second used
-03/09-02:33:11 - tasks.py[47] - INFO - send_task down,30 images have been processed,1.6405999660491943 second used
-03/09-02:33:13 - tasks.py[47] - INFO - send_task down,31 images have been processed,1.0054967403411865 second used
-03/09-02:33:15 - tasks.py[47] - INFO - send_task down,32 images have been processed,1.548743486404419 second used
-03/09-02:33:16 - tasks.py[47] - INFO - send_task down,33 images have been processed,0.7412045001983643 second used
-03/09-02:33:17 - tasks.py[47] - INFO - send_task down,34 images have been processed,1.1520206928253174 second used
-03/09-02:33:19 - tasks.py[47] - INFO - send_task down,35 images have been processed,1.2009587287902832 second used
-03/09-02:33:22 - tasks.py[47] - INFO - send_task down,36 images have been processed,2.4081051349639893 second used
-03/09-02:33:23 - tasks.py[47] - INFO - send_task down,37 images have been processed,0.9536571502685547 second used
-03/09-02:33:24 - tasks.py[47] - INFO - send_task down,38 images have been processed,1.0845286846160889 second used
-03/09-02:33:26 - tasks.py[47] - INFO - send_task down,39 images have been processed,1.2060916423797607 second used
-03/09-02:33:27 - tasks.py[47] - INFO - send_task down,40 images have been processed,1.2584924697875977 second used
-03/09-02:33:30 - tasks.py[47] - INFO - send_task down,41 images have been processed,1.783355951309204 second used
-03/09-02:33:31 - tasks.py[47] - INFO - send_task down,42 images have been processed,0.9434211254119873 second used
-03/09-02:33:34 - tasks.py[47] - INFO - send_task down,43 images have been processed,2.2361185550689697 second used
-03/14-19:02:22 - tasks.py[48] - INFO - send_task down,1 images have been processed,2.6990997791290283 second used
-03/14-19:02:24 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:26 - tasks.py[48] - INFO - send_task down,2 images have been processed,1.0815000534057617 second used
-03/14-19:02:28 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:30 - tasks.py[48] - INFO - send_task down,3 images have been processed,1.3447015285491943 second used
-03/14-19:02:32 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:34 - tasks.py[48] - INFO - send_task down,4 images have been processed,2.068678140640259 second used
-03/14-19:02:36 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:37 - tasks.py[48] - INFO - send_task down,5 images have been processed,0.9369034767150879 second used
-03/14-19:02:39 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:41 - tasks.py[48] - INFO - send_task down,6 images have been processed,1.3542377948760986 second used
-03/14-19:02:43 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:45 - tasks.py[48] - INFO - send_task down,7 images have been processed,1.1306371688842773 second used
-03/14-19:02:47 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:49 - tasks.py[48] - INFO - send_task down,8 images have been processed,1.628587245941162 second used
-03/14-19:02:51 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:52 - tasks.py[48] - INFO - send_task down,9 images have been processed,1.1561155319213867 second used
-03/14-19:02:54 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:02:57 - tasks.py[48] - INFO - send_task down,10 images have been processed,1.8185913562774658 second used
-03/14-19:02:59 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:00 - tasks.py[48] - INFO - send_task down,11 images have been processed,1.1833994388580322 second used
-03/14-19:03:02 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:03 - tasks.py[48] - INFO - send_task down,12 images have been processed,0.9833428859710693 second used
-03/14-19:03:05 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:07 - tasks.py[48] - INFO - send_task down,13 images have been processed,1.2079172134399414 second used
-03/14-19:03:09 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:10 - tasks.py[48] - INFO - send_task down,14 images have been processed,1.251861810684204 second used
-03/14-19:03:12 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:14 - tasks.py[48] - INFO - send_task down,15 images have been processed,1.2761540412902832 second used
-03/14-19:03:16 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:19 - tasks.py[48] - INFO - send_task down,16 images have been processed,2.123911142349243 second used
-03/14-19:03:21 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:22 - tasks.py[48] - INFO - send_task down,17 images have been processed,0.9991240501403809 second used
-03/14-19:03:24 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:26 - tasks.py[48] - INFO - send_task down,18 images have been processed,1.2802956104278564 second used
-03/14-19:03:28 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:30 - tasks.py[48] - INFO - send_task down,19 images have been processed,1.5373857021331787 second used
-03/14-19:03:32 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:33 - tasks.py[48] - INFO - send_task down,20 images have been processed,1.4126343727111816 second used
-03/14-19:03:35 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:37 - tasks.py[48] - INFO - send_task down,21 images have been processed,1.1153881549835205 second used
-03/14-19:03:39 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:03:41 - tasks.py[48] - INFO - send_task down,22 images have been processed,2.4672300815582275 second used
-03/14-19:03:44 - tasks.py[59] - INFO - collected down,result is Internal Server Error
-03/14-19:05:18 - tasks.py[48] - INFO - send_task down,1 images have been processed,1.4674999713897705 second used
-03/14-19:05:20 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:22 - tasks.py[48] - INFO - send_task down,2 images have been processed,1.2489044666290283 second used
-03/14-19:05:24 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:26 - tasks.py[48] - INFO - send_task down,3 images have been processed,1.2491145133972168 second used
-03/14-19:05:28 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:29 - tasks.py[48] - INFO - send_task down,4 images have been processed,1.0550458431243896 second used
-03/14-19:05:31 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:32 - tasks.py[48] - INFO - send_task down,5 images have been processed,1.1940014362335205 second used
-03/14-19:05:34 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:36 - tasks.py[48] - INFO - send_task down,6 images have been processed,0.9778616428375244 second used
-03/14-19:05:38 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:40 - tasks.py[48] - INFO - send_task down,7 images have been processed,2.2171385288238525 second used
-03/14-19:05:42 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:44 - tasks.py[48] - INFO - send_task down,8 images have been processed,1.5768260955810547 second used
-03/14-19:05:47 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:48 - tasks.py[48] - INFO - send_task down,9 images have been processed,1.1468665599822998 second used
-03/14-19:05:50 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:51 - tasks.py[48] - INFO - send_task down,10 images have been processed,1.1885452270507812 second used
-03/14-19:05:53 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:05:55 - tasks.py[48] - INFO - send_task down,11 images have been processed,0.84794020652771 second used
-03/14-19:05:57 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:01 - tasks.py[48] - INFO - send_task down,12 images have been processed,3.505507707595825 second used
-03/14-19:06:03 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:04 - tasks.py[48] - INFO - send_task down,13 images have been processed,1.1436598300933838 second used
-03/14-19:06:06 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:09 - tasks.py[48] - INFO - send_task down,14 images have been processed,2.6153719425201416 second used
-03/14-19:06:11 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:13 - tasks.py[48] - INFO - send_task down,15 images have been processed,0.7701728343963623 second used
-03/14-19:06:15 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:16 - tasks.py[48] - INFO - send_task down,16 images have been processed,1.4451544284820557 second used
-03/14-19:06:18 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:20 - tasks.py[48] - INFO - send_task down,17 images have been processed,1.2225391864776611 second used
-03/14-19:06:22 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:23 - tasks.py[48] - INFO - send_task down,18 images have been processed,1.214723825454712 second used
-03/14-19:06:26 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:28 - tasks.py[48] - INFO - send_task down,19 images have been processed,2.0005180835723877 second used
-03/14-19:06:30 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:31 - tasks.py[48] - INFO - send_task down,20 images have been processed,0.9680404663085938 second used
-03/14-19:06:33 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:36 - tasks.py[48] - INFO - send_task down,21 images have been processed,2.332709550857544 second used
-03/14-19:06:38 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:40 - tasks.py[48] - INFO - send_task down,22 images have been processed,1.1705412864685059 second used
-03/14-19:06:42 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:42 - tasks.py[48] - INFO - send_task down,23 images have been processed,0.503767728805542 second used
-03/14-19:06:44 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:46 - tasks.py[48] - INFO - send_task down,24 images have been processed,1.3323254585266113 second used
-03/14-19:06:48 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:50 - tasks.py[48] - INFO - send_task down,25 images have been processed,1.6109540462493896 second used
-03/14-19:06:52 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:53 - tasks.py[48] - INFO - send_task down,26 images have been processed,0.9723796844482422 second used
-03/14-19:06:55 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:06:57 - tasks.py[48] - INFO - send_task down,27 images have been processed,1.0779151916503906 second used
-03/14-19:06:59 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:02 - tasks.py[48] - INFO - send_task down,28 images have been processed,2.1939234733581543 second used
-03/14-19:07:04 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:05 - tasks.py[48] - INFO - send_task down,29 images have been processed,1.492089033126831 second used
-03/14-19:07:07 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:10 - tasks.py[48] - INFO - send_task down,30 images have been processed,1.9652390480041504 second used
-03/14-19:07:12 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:13 - tasks.py[48] - INFO - send_task down,31 images have been processed,1.132319450378418 second used
-03/14-19:07:15 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:17 - tasks.py[48] - INFO - send_task down,32 images have been processed,0.9544413089752197 second used
-03/14-19:07:19 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:20 - tasks.py[48] - INFO - send_task down,33 images have been processed,0.8331160545349121 second used
-03/14-19:07:22 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:23 - tasks.py[48] - INFO - send_task down,34 images have been processed,0.9513108730316162 second used
-03/14-19:07:25 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:27 - tasks.py[48] - INFO - send_task down,35 images have been processed,1.8953900337219238 second used
-03/14-19:07:29 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:31 - tasks.py[48] - INFO - send_task down,36 images have been processed,1.0327351093292236 second used
-03/14-19:07:33 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:34 - tasks.py[48] - INFO - send_task down,37 images have been processed,0.9294960498809814 second used
-03/14-19:07:36 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:37 - tasks.py[48] - INFO - send_task down,38 images have been processed,1.0938820838928223 second used
-03/14-19:07:39 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:40 - tasks.py[48] - INFO - send_task down,39 images have been processed,0.6522691249847412 second used
-03/14-19:07:42 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:44 - tasks.py[48] - INFO - send_task down,40 images have been processed,1.0724833011627197 second used
-03/14-19:07:46 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:49 - tasks.py[48] - INFO - send_task down,41 images have been processed,2.485880136489868 second used
-03/14-19:07:51 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:53 - tasks.py[48] - INFO - send_task down,42 images have been processed,1.7537012100219727 second used
-03/14-19:07:55 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:07:56 - tasks.py[48] - INFO - send_task down,43 images have been processed,0.7727479934692383 second used
-03/14-19:07:58 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:00 - tasks.py[48] - INFO - send_task down,44 images have been processed,1.5100395679473877 second used
-03/14-19:08:02 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:03 - tasks.py[48] - INFO - send_task down,45 images have been processed,0.948460578918457 second used
-03/14-19:08:05 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:07 - tasks.py[48] - INFO - send_task down,46 images have been processed,1.214705228805542 second used
-03/14-19:08:09 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:10 - tasks.py[48] - INFO - send_task down,47 images have been processed,1.1061632633209229 second used
-03/14-19:08:12 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:14 - tasks.py[48] - INFO - send_task down,48 images have been processed,1.4811859130859375 second used
-03/14-19:08:16 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:18 - tasks.py[48] - INFO - send_task down,49 images have been processed,1.164844274520874 second used
-03/14-19:08:20 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:21 - tasks.py[48] - INFO - send_task down,50 images have been processed,1.241300106048584 second used
-03/14-19:08:23 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:25 - tasks.py[48] - INFO - send_task down,51 images have been processed,1.1545474529266357 second used
-03/14-19:08:27 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:28 - tasks.py[48] - INFO - send_task down,52 images have been processed,1.244661569595337 second used
-03/14-19:08:30 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:32 - tasks.py[48] - INFO - send_task down,53 images have been processed,1.4126474857330322 second used
-03/14-19:08:34 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:36 - tasks.py[48] - INFO - send_task down,54 images have been processed,2.0496771335601807 second used
-03/14-19:08:39 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:40 - tasks.py[48] - INFO - send_task down,55 images have been processed,0.9342520236968994 second used
-03/14-19:08:42 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:43 - tasks.py[48] - INFO - send_task down,56 images have been processed,0.8359713554382324 second used
-03/14-19:08:45 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:47 - tasks.py[48] - INFO - send_task down,57 images have been processed,1.2111625671386719 second used
-03/14-19:08:49 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:51 - tasks.py[48] - INFO - send_task down,58 images have been processed,1.8551104068756104 second used
-03/14-19:08:53 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:54 - tasks.py[48] - INFO - send_task down,59 images have been processed,1.2425296306610107 second used
-03/14-19:08:56 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:08:58 - tasks.py[48] - INFO - send_task down,60 images have been processed,1.1125383377075195 second used
-03/14-19:09:00 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:01 - tasks.py[48] - INFO - send_task down,61 images have been processed,0.9354994297027588 second used
-03/14-19:09:03 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:05 - tasks.py[48] - INFO - send_task down,62 images have been processed,1.1701090335845947 second used
-03/14-19:09:07 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:08 - tasks.py[48] - INFO - send_task down,63 images have been processed,1.203153371810913 second used
-03/14-19:09:10 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:11 - tasks.py[48] - INFO - send_task down,64 images have been processed,0.9070436954498291 second used
-03/14-19:09:13 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:20 - tasks.py[48] - INFO - send_task down,65 images have been processed,6.030387878417969 second used
-03/14-19:09:22 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:25 - tasks.py[48] - INFO - send_task down,66 images have been processed,2.936922311782837 second used
-03/14-19:09:27 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:31 - tasks.py[48] - INFO - send_task down,67 images have been processed,3.7128801345825195 second used
-03/14-19:09:33 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:37 - tasks.py[48] - INFO - send_task down,68 images have been processed,3.4639792442321777 second used
-03/14-19:09:39 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:46 - tasks.py[48] - INFO - send_task down,69 images have been processed,5.690600633621216 second used
-03/14-19:09:48 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:54 - tasks.py[48] - INFO - send_task down,70 images have been processed,5.540916204452515 second used
-03/14-19:09:56 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:09:58 - tasks.py[48] - INFO - send_task down,71 images have been processed,1.149031639099121 second used
-03/14-19:10:00 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:01 - tasks.py[48] - INFO - send_task down,72 images have been processed,1.2330572605133057 second used
-03/14-19:10:03 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:05 - tasks.py[48] - INFO - send_task down,73 images have been processed,1.2394213676452637 second used
-03/14-19:10:07 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:10 - tasks.py[48] - INFO - send_task down,74 images have been processed,2.298300266265869 second used
-03/14-19:10:12 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:13 - tasks.py[48] - INFO - send_task down,75 images have been processed,1.1180577278137207 second used
-03/14-19:10:15 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:18 - tasks.py[48] - INFO - send_task down,76 images have been processed,2.089949607849121 second used
-03/14-19:10:20 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:21 - tasks.py[48] - INFO - send_task down,77 images have been processed,0.8230538368225098 second used
-03/14-19:10:23 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:25 - tasks.py[48] - INFO - send_task down,78 images have been processed,1.315460205078125 second used
-03/14-19:10:27 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:28 - tasks.py[48] - INFO - send_task down,79 images have been processed,1.554457187652588 second used
-03/14-19:10:31 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:32 - tasks.py[48] - INFO - send_task down,80 images have been processed,1.1773383617401123 second used
-03/14-19:10:34 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:36 - tasks.py[48] - INFO - send_task down,81 images have been processed,1.319148063659668 second used
-03/14-19:10:38 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:39 - tasks.py[48] - INFO - send_task down,82 images have been processed,1.4626085758209229 second used
-03/14-19:10:41 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:45 - tasks.py[48] - INFO - send_task down,83 images have been processed,2.3916406631469727 second used
-03/14-19:10:47 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:48 - tasks.py[48] - INFO - send_task down,84 images have been processed,1.192000389099121 second used
-03/14-19:10:50 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:51 - tasks.py[48] - INFO - send_task down,85 images have been processed,1.0086441040039062 second used
-03/14-19:10:53 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:10:58 - tasks.py[48] - INFO - send_task down,86 images have been processed,4.096903085708618 second used
-03/14-19:11:00 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:05 - tasks.py[48] - INFO - send_task down,87 images have been processed,3.699007272720337 second used
-03/14-19:11:07 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:16 - tasks.py[48] - INFO - send_task down,88 images have been processed,7.777500152587891 second used
-03/14-19:11:18 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:21 - tasks.py[48] - INFO - send_task down,89 images have been processed,2.745332717895508 second used
-03/14-19:11:23 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:27 - tasks.py[48] - INFO - send_task down,90 images have been processed,3.385056495666504 second used
-03/14-19:11:29 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:32 - tasks.py[48] - INFO - send_task down,91 images have been processed,2.7146494388580322 second used
-03/14-19:11:34 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:37 - tasks.py[48] - INFO - send_task down,92 images have been processed,2.810969591140747 second used
-03/14-19:11:39 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:43 - tasks.py[48] - INFO - send_task down,93 images have been processed,2.840346097946167 second used
-03/14-19:11:45 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:49 - tasks.py[48] - INFO - send_task down,94 images have been processed,3.414141893386841 second used
-03/14-19:11:51 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:11:59 - tasks.py[48] - INFO - send_task down,95 images have been processed,6.8493287563323975 second used
-03/14-19:12:01 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:12:04 - tasks.py[48] - INFO - send_task down,96 images have been processed,3.28275203704834 second used
-03/14-19:12:07 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:12:09 - tasks.py[48] - INFO - send_task down,97 images have been processed,2.196272373199463 second used
-03/14-19:12:11 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:12:15 - tasks.py[48] - INFO - send_task down,98 images have been processed,2.530099391937256 second used
-03/14-19:12:17 - tasks.py[59] - INFO - collected down,result is {"success":true}
-03/14-19:12:18 - tasks.py[48] - INFO - send_task down,99 images have been processed,1.3812215328216553 second used
-03/14-19:12:20 - tasks.py[59] - INFO - collected down,result is {"success":true}
+04/07-19:11:32 - tasks.py[53] - INFO - send_task down,1 images have been processed,0.6587135791778564 second used
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,1 images have been processed,0.6616330146789551 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,2 images have been processed,0.0348970890045166 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,3 images have been processed,0.0325467586517334 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,4 images have been processed,0.18658208847045898 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,5 images have been processed,0.03214573860168457 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,6 images have been processed,0.031200408935546875 second used
+04/07-19:13:05 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:05 - tasks.py[53] - INFO - send_task down,7 images have been processed,0.03177213668823242 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,8 images have been processed,0.17055559158325195 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,9 images have been processed,0.028640270233154297 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,10 images have been processed,0.029425382614135742 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,11 images have been processed,0.028954029083251953 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,12 images have been processed,0.09915423393249512 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,13 images have been processed,0.03131508827209473 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,14 images have been processed,0.03088092803955078 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,15 images have been processed,0.02949237823486328 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,16 images have been processed,0.09508156776428223 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,17 images have been processed,0.029421567916870117 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,18 images have been processed,0.02978205680847168 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,19 images have been processed,0.028828144073486328 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,20 images have been processed,0.09466028213500977 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,21 images have been processed,0.030132770538330078 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:06 - tasks.py[53] - INFO - send_task down,22 images have been processed,0.02960038185119629 second used
+04/07-19:13:06 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,23 images have been processed,0.09760355949401855 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,24 images have been processed,0.030042409896850586 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,25 images have been processed,0.029210805892944336 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,26 images have been processed,0.02964925765991211 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,27 images have been processed,0.09778237342834473 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,28 images have been processed,0.031200647354125977 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,29 images have been processed,0.029899120330810547 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,30 images have been processed,0.0301969051361084 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,31 images have been processed,0.09628939628601074 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,32 images have been processed,0.0295259952545166 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,33 images have been processed,0.02939772605895996 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,34 images have been processed,0.035048484802246094 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,35 images have been processed,0.09863567352294922 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,36 images have been processed,0.03330087661743164 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,37 images have been processed,0.028038501739501953 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,38 images have been processed,0.028393030166625977 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,39 images have been processed,0.0987091064453125 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,40 images have been processed,0.030340194702148438 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:07 - tasks.py[53] - INFO - send_task down,41 images have been processed,0.029694557189941406 second used
+04/07-19:13:07 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,42 images have been processed,0.11206245422363281 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,43 images have been processed,0.02967095375061035 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,44 images have been processed,0.03006458282470703 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,45 images have been processed,0.03004765510559082 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,46 images have been processed,0.1019132137298584 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,47 images have been processed,0.030452728271484375 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,48 images have been processed,0.031014204025268555 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,49 images have been processed,0.030506610870361328 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,50 images have been processed,0.09530448913574219 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,51 images have been processed,0.030203819274902344 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,52 images have been processed,0.030824899673461914 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,53 images have been processed,0.0297086238861084 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,54 images have been processed,0.09863066673278809 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,55 images have been processed,0.02912616729736328 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,56 images have been processed,0.0300595760345459 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,57 images have been processed,0.029228925704956055 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:08 - tasks.py[53] - INFO - send_task down,58 images have been processed,0.09600234031677246 second used
+04/07-19:13:08 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,59 images have been processed,0.02887439727783203 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,60 images have been processed,0.02842998504638672 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,61 images have been processed,0.09784626960754395 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,62 images have been processed,0.029157161712646484 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,63 images have been processed,0.029512882232666016 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,64 images have been processed,0.030218839645385742 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,65 images have been processed,0.10553574562072754 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,66 images have been processed,0.029201269149780273 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,67 images have been processed,0.02972412109375 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,68 images have been processed,0.030397653579711914 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,69 images have been processed,0.09954118728637695 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,70 images have been processed,0.030382394790649414 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,71 images have been processed,0.03097987174987793 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,72 images have been processed,0.03573966026306152 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,73 images have been processed,0.10404014587402344 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,74 images have been processed,0.03278851509094238 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,75 images have been processed,0.03124094009399414 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:09 - tasks.py[53] - INFO - send_task down,76 images have been processed,0.030413389205932617 second used
+04/07-19:13:09 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,77 images have been processed,0.10730433464050293 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,78 images have been processed,0.02942371368408203 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,79 images have been processed,0.028963327407836914 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,80 images have been processed,0.10671448707580566 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,81 images have been processed,0.02912116050720215 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,82 images have been processed,0.028870820999145508 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,83 images have been processed,0.030606746673583984 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,84 images have been processed,0.1101071834564209 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,85 images have been processed,0.030523300170898438 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,86 images have been processed,0.028400897979736328 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,87 images have been processed,0.02893376350402832 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,88 images have been processed,0.09965395927429199 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,89 images have been processed,0.029567241668701172 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,90 images have been processed,0.029805898666381836 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,91 images have been processed,0.030264854431152344 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,92 images have been processed,0.09624338150024414 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:10 - tasks.py[53] - INFO - send_task down,93 images have been processed,0.03145003318786621 second used
+04/07-19:13:10 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,94 images have been processed,0.0292818546295166 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,95 images have been processed,0.02962040901184082 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,96 images have been processed,0.09699749946594238 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,97 images have been processed,0.029344558715820312 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,98 images have been processed,0.030227184295654297 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,99 images have been processed,0.10417532920837402 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,100 images have been processed,0.030666589736938477 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,101 images have been processed,0.029802560806274414 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,102 images have been processed,0.02919459342956543 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,103 images have been processed,0.09834694862365723 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,104 images have been processed,0.029597759246826172 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,105 images have been processed,0.030320167541503906 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,106 images have been processed,0.02924799919128418 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,107 images have been processed,0.10321617126464844 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,108 images have been processed,0.030463695526123047 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,109 images have been processed,0.02957749366760254 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:11 - tasks.py[53] - INFO - send_task down,110 images have been processed,0.029625415802001953 second used
+04/07-19:13:11 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,111 images have been processed,0.09508943557739258 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,112 images have been processed,0.030092477798461914 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,113 images have been processed,0.02900099754333496 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,114 images have been processed,0.02913832664489746 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,115 images have been processed,0.09688806533813477 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,116 images have been processed,0.02958083152770996 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,117 images have been processed,0.029536724090576172 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,118 images have been processed,0.09893345832824707 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,119 images have been processed,0.029574155807495117 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,120 images have been processed,0.030323505401611328 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,121 images have been processed,0.030116558074951172 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,122 images have been processed,0.09801912307739258 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,123 images have been processed,0.030284404754638672 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,124 images have been processed,0.030472517013549805 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,125 images have been processed,0.03092360496520996 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,126 images have been processed,0.0972280502319336 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,127 images have been processed,0.029951095581054688 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,128 images have been processed,0.029999732971191406 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:12 - tasks.py[53] - INFO - send_task down,129 images have been processed,0.029532909393310547 second used
+04/07-19:13:12 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,130 images have been processed,0.09915661811828613 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,131 images have been processed,0.030412673950195312 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,132 images have been processed,0.03013014793395996 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,133 images have been processed,0.029025793075561523 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,134 images have been processed,0.09758496284484863 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,135 images have been processed,0.03012251853942871 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,136 images have been processed,0.030282258987426758 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,137 images have been processed,0.10507702827453613 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,138 images have been processed,0.029245376586914062 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,139 images have been processed,0.030234098434448242 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,140 images have been processed,0.029866456985473633 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,141 images have been processed,0.10166096687316895 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,142 images have been processed,0.030641555786132812 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,143 images have been processed,0.028983592987060547 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,144 images have been processed,0.030269145965576172 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,145 images have been processed,0.09906673431396484 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,146 images have been processed,0.029778480529785156 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:13 - tasks.py[53] - INFO - send_task down,147 images have been processed,0.028699398040771484 second used
+04/07-19:13:13 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,148 images have been processed,0.02937793731689453 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,149 images have been processed,0.10273909568786621 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,150 images have been processed,0.03189897537231445 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,151 images have been processed,0.030552148818969727 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,152 images have been processed,0.028895139694213867 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,153 images have been processed,0.09439992904663086 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,154 images have been processed,0.02774333953857422 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,155 images have been processed,0.0270993709564209 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,156 images have been processed,0.09176373481750488 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,157 images have been processed,0.0252532958984375 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,158 images have been processed,0.025928020477294922 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,159 images have been processed,0.025266647338867188 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,160 images have been processed,0.0867462158203125 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,161 images have been processed,0.023146629333496094 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,162 images have been processed,0.023554563522338867 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,163 images have been processed,0.023492813110351562 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,164 images have been processed,0.08692002296447754 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,165 images have been processed,0.022655487060546875 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:14 - tasks.py[53] - INFO - send_task down,166 images have been processed,0.022156953811645508 second used
+04/07-19:13:14 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,167 images have been processed,0.022453784942626953 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,168 images have been processed,0.08525872230529785 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,169 images have been processed,0.021247148513793945 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,170 images have been processed,0.020556926727294922 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,171 images have been processed,0.021765470504760742 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,172 images have been processed,0.08635616302490234 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,173 images have been processed,0.02050948143005371 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,174 images have been processed,0.020230531692504883 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,175 images have been processed,0.08581686019897461 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,176 images have been processed,0.019733428955078125 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,177 images have been processed,0.019950389862060547 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,178 images have been processed,0.019753217697143555 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,179 images have been processed,0.07672357559204102 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,180 images have been processed,0.019982576370239258 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,181 images have been processed,0.019824504852294922 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,182 images have been processed,0.02065134048461914 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,183 images have been processed,0.08210468292236328 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,184 images have been processed,0.020013093948364258 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,185 images have been processed,0.020196914672851562 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,186 images have been processed,0.019937515258789062 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,187 images have been processed,0.0885322093963623 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,188 images have been processed,0.02052927017211914 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:15 - tasks.py[53] - INFO - send_task down,189 images have been processed,0.01981663703918457 second used
+04/07-19:13:15 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,190 images have been processed,0.02025127410888672 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,191 images have been processed,0.09670829772949219 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,192 images have been processed,0.022558212280273438 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,193 images have been processed,0.02111649513244629 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,194 images have been processed,0.07932710647583008 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,195 images have been processed,0.020072460174560547 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,196 images have been processed,0.020760774612426758 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,197 images have been processed,0.022392988204956055 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,198 images have been processed,0.09287166595458984 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,199 images have been processed,0.020818710327148438 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,200 images have been processed,0.02057504653930664 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,201 images have been processed,0.020285367965698242 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,202 images have been processed,0.09012579917907715 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,203 images have been processed,0.020335912704467773 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,204 images have been processed,0.02122974395751953 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,205 images have been processed,0.02077627182006836 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,206 images have been processed,0.08649253845214844 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,207 images have been processed,0.021388769149780273 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,208 images have been processed,0.020031452178955078 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,209 images have been processed,0.021898269653320312 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,210 images have been processed,0.08195281028747559 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:16 - tasks.py[53] - INFO - send_task down,211 images have been processed,0.021314382553100586 second used
+04/07-19:13:16 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,212 images have been processed,0.025241613388061523 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,213 images have been processed,0.08278918266296387 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,214 images have been processed,0.01996588706970215 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,215 images have been processed,0.02045297622680664 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,216 images have been processed,0.0199129581451416 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,217 images have been processed,0.08570671081542969 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,218 images have been processed,0.020697593688964844 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,219 images have been processed,0.021662473678588867 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,220 images have been processed,0.020814895629882812 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,221 images have been processed,0.0819394588470459 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,222 images have been processed,0.020795583724975586 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,223 images have been processed,0.020729541778564453 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,224 images have been processed,0.02002096176147461 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,225 images have been processed,0.08563351631164551 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,226 images have been processed,0.02010202407836914 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,227 images have been processed,0.020961999893188477 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,228 images have been processed,0.020026206970214844 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,229 images have been processed,0.08294272422790527 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,230 images have been processed,0.021310806274414062 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,231 images have been processed,0.02035212516784668 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,232 images have been processed,0.09210371971130371 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,233 images have been processed,0.020892858505249023 second used
+04/07-19:13:17 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:17 - tasks.py[53] - INFO - send_task down,234 images have been processed,0.020796775817871094 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,235 images have been processed,0.020583391189575195 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,236 images have been processed,0.12192773818969727 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,237 images have been processed,0.029684782028198242 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,238 images have been processed,0.033315420150756836 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,239 images have been processed,0.02941584587097168 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,240 images have been processed,0.13875198364257812 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,241 images have been processed,0.021584510803222656 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,242 images have been processed,0.02233147621154785 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,243 images have been processed,0.022271156311035156 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,244 images have been processed,0.09275197982788086 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,245 images have been processed,0.020878076553344727 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,246 images have been processed,0.0231168270111084 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,247 images have been processed,0.02118062973022461 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,248 images have been processed,0.08681631088256836 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,249 images have been processed,0.028118133544921875 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,250 images have been processed,0.022571325302124023 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:18 - tasks.py[53] - INFO - send_task down,251 images have been processed,0.10768771171569824 second used
+04/07-19:13:18 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,252 images have been processed,0.01988816261291504 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,253 images have been processed,0.020067930221557617 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,254 images have been processed,0.02010059356689453 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,255 images have been processed,0.0877232551574707 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,256 images have been processed,0.019937992095947266 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,257 images have been processed,0.02023601531982422 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,258 images have been processed,0.020262956619262695 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,259 images have been processed,0.08330202102661133 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,260 images have been processed,0.02067708969116211 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,261 images have been processed,0.020109891891479492 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,262 images have been processed,0.02112865447998047 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,263 images have been processed,0.07792305946350098 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,264 images have been processed,0.020252704620361328 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,265 images have been processed,0.020386457443237305 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,266 images have been processed,0.020282506942749023 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,267 images have been processed,0.0800936222076416 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,268 images have been processed,0.01988983154296875 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,269 images have been processed,0.020738840103149414 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,270 images have been processed,0.08407807350158691 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,271 images have been processed,0.020012617111206055 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,272 images have been processed,0.020009994506835938 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,273 images have been processed,0.020150184631347656 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:19 - tasks.py[53] - INFO - send_task down,274 images have been processed,0.08736920356750488 second used
+04/07-19:13:19 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,275 images have been processed,0.019964933395385742 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,276 images have been processed,0.02012944221496582 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,277 images have been processed,0.020041942596435547 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,278 images have been processed,0.08691525459289551 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,279 images have been processed,0.021060943603515625 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,280 images have been processed,0.020821571350097656 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,281 images have been processed,0.01979231834411621 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,282 images have been processed,0.07852888107299805 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,283 images have been processed,0.01950216293334961 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}
+04/07-19:13:20 - tasks.py[53] - INFO - send_task down,284 images have been processed,0.02099299430847168 second used
+04/07-19:13:20 - tasks.py[65] - INFO - collected down,result is {"success":true}

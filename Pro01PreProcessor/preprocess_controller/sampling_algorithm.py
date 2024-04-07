@@ -80,7 +80,7 @@ def sampling(videoFilePath:str,uid:str)->list:
                 # }
                 image_info={}
                 image_info['uuid']=uid
-                image_info['image_name']=video_name+str(cnt)+".jpg"
+                image_info['image_name']=video_name+str(count)+".jpg"
                 image_info['image_mat']=frame1
                 image_info['count']=count
                 image_info['start_time']=time_now

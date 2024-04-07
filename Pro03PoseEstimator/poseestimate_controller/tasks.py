@@ -54,7 +54,11 @@ def recv_forward_task():
 def my_draw_callback(ch, method, properties, body):
     start = time.time()
     body = body.decode()
-    body = json.loads(body)
+    try:
+        body = json.loads(body)
+    except:
+        ch.basic_ack(delivery_tag=method.delivery_tag)
+        return
     image = np.array(body['image_mat'], dtype=np.uint8)
     image_name = body['image_name']
     boxes = torch.Tensor(body['boxes'])
@@ -74,7 +78,12 @@ def my_draw_callback(ch, method, properties, body):
                  (0, 255, 255), 2)
 
     # image_name='test'
-    cv2.imwrite(BaseConfig.LOG_PATH + '/' + image_name, image)
+    # print(image_name)
+    # cv2.imshow('image', image)
+    # cv2.waitKey(1)
+    image_name=image_name.split('/')[-1]
+    print(BaseConfig.OUT_PATH + '/' + image_name)
+    cv2.imwrite(BaseConfig.OUT_PATH + '/' + image_name, image)
     logger.info('pic results written!')
 
     global cnt

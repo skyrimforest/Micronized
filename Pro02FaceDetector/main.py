@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from SkyLogger import get_logger
-
+import BaseConfig
 from facedetect_controller import controller_detect
 
 app = FastAPI()

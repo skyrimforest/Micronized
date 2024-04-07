@@ -28,7 +28,12 @@ cnt=0
 def my_callback(ch, method, properties, body):
     start = time.time()
     body = body.decode()
-    body = json.loads(body)
+    # packet is wrong then drop it
+    try:
+        body = json.loads(body)
+    except:
+        ch.basic_ack(delivery_tag=method.delivery_tag)
+        return
     image=np.array(body['image_mat'],dtype=np.uint8)
     image_name=body['image_name']
     print(f"{image_name} has been received")
@@ -46,6 +51,7 @@ def my_callback(ch, method, properties, body):
     ch.basic_ack(delivery_tag=method.delivery_tag)
     end = time.time()
     logger.info(f"send_task down,{cnt} images have been processed,{end-start} second used")
+
 
     data={
         "uuid":body['uuid'],
