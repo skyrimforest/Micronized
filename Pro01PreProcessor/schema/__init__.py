@@ -1,4 +1,4 @@
 
 from .AllSchema import *
 
-__all__=['FilePath']
+__all__=['FilePath','PicInfo']

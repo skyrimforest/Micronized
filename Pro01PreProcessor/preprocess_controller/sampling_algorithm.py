@@ -70,7 +70,6 @@ def sampling(videoFilePath:str,uid:str)->list:
             # if resort_pic(result):
             if scale_resort(result,(height,width)):
                 count += 1
-                logger.info(f"{count} pics have been processed")
                 # image_info={
                 #     'uuid': uid,  # 运行次数标识符,系统一次运行只接受一种uuid
                 #     'image_name': video_name+str(cnt)+".jpg",  # 图片文件名称,格式为name.jpg等

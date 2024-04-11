@@ -30,7 +30,7 @@ async def dispatchtest():
 
 if __name__ == '__main__':
     logger.info('dispatcher start...')
-    uvicorn.run("main:app",host="0.0.0.0",port=BaseConfig.OWN_PORT,reload=True)
+    uvicorn.run("main:app",host="0.0.0.0",port=int(BaseConfig.DISPATCHER_PORT),reload=True)
 
 
 

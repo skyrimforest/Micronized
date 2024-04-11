@@ -4,6 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import BaseConfig
 from SkyLogger import get_logger
+from schema import *
+
 
 from preprocess_controller import controller_pics,controller_video
 app = FastAPI()
@@ -28,9 +30,14 @@ app.add_middleware(
 async def preprocesstest():
     return {"message": "preprocess test success"}
 
+@app.post("/testpicinfo")
+async def preprocesstest(picinfo:PicInfo):
+    print(picinfo.dict())
+    return {"message": "preprocess test success"}
+
 if __name__ == '__main__':
     logger.info('preprocessor start...')
-    uvicorn.run("main:app",host="0.0.0.0",port=BaseConfig.OWN_PORT,reload=True)
+    uvicorn.run("main:app",host="0.0.0.0",port=int(BaseConfig.PREPROCESSOR_PORT),reload=True)
 
 
 

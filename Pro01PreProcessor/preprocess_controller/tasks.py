@@ -3,16 +3,20 @@
 import requests
 
 import BaseConfig
-from RMQ import rmq_send
 import os
 import time
 import cv2
 from SkyLogger import get_logger
 import uuid
 from API import dispatcher_api
+from API import detector_api
 from .sampling_algorithm import sampling
 
 logger = get_logger("tasks")
+
+def send_detect(image_data:dict):
+    requests.post(detector_api.API['recvdetect'], json=image_data)
+    return True
 
 def pics_sendpics_task(picsFilePath:str):
     logger.info("pics sendpics_task start")
@@ -34,7 +38,7 @@ def pics_sendpics_task(picsFilePath:str):
                 'image_mat': image.tolist(), # list格式的图片
             }
             cnt += 1
-            rmq_send(image_info)
+            send_detect(image_info)
 
             # send each pic's start time info to db
             start_time_info = {
@@ -58,6 +62,8 @@ def pics_sendpics_task(picsFilePath:str):
     res=requests.post(dispatcher_api.API['imageinfo'],json=total_info)
     logger.info(f"collected down,result is {res.text}")
 
+
+# run in backen
 def video_sendpics_task(videoFilePath:str):
     logger.info("video sendpics_task start")
     start_time = time.time()
@@ -72,12 +78,15 @@ def video_sendpics_task(videoFilePath:str):
 
             for image_info in image_info_li:
                 real_image_info = {
-                    'uuid': image_info['uuid'], #运行次数标识符,系统一次运行只接受一种uuid
-                    'image_name': image_info['image_name'], # 图片文件名称,格式为name.jpg等
-                    'image_mat': image_info['image_mat'].tolist(), # list格式的图片
+                    'uuid': image_info['uuid'], #运行次数标识符,系统一次运行只接受一种uuid,str
+                    'image_name': image_info['image_name'], # 图片文件名称,格式为name.jpg等,str
+                    'image_mat': image_info['image_mat'].tolist(), # list格式的图片,list
                 }
                 cnt += 1
-                rmq_send(real_image_info)
+
+                # requests.post send image info to next phase
+                send_detect(real_image_info)
+
                 # send each pic's start time info to db
                 start_time_info = {
                     'uuid': image_info['uuid'],  # 运行次数标识符,系统一次运行只接受一种uuid

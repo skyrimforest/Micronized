@@ -2,7 +2,7 @@ import torch.nn as nn
 import math
 
 class Hopenet(nn.Module):
-    # Hopenet with 3 output layers for yaw, pitch and roll
+    # Hopenet with 3 outputpics layers for yaw, pitch and roll
     # Predicts Euler angles by binning and regression with the expected value
     def __init__(self, block, layers, num_bins):
         self.inplanes = 64

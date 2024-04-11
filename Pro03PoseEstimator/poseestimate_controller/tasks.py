@@ -1,12 +1,12 @@
 import requests
 
 import BaseConfig
-from RMQ import rmq_send,rmq_recv
 import time
 import json
 import numpy as np
 from SkyLogger import get_logger
 from poseestimate_controller.FaceAlignment import FaceAlignmentCNN,draw_axis
+from schema import *
 import torch
 import cv2
 from API import dispatcher_api
@@ -29,92 +29,66 @@ face_alignment = FaceAlignmentCNN(args)
 #     'image_mat': image.tolist(),
 #     'boxes': boxes.tolist(),
 # }
-def my_callback(ch, method, properties, body):
-    start = time.time()
-    body = body.decode()
-    body = json.loads(body)
-    image=np.array(body['image_mat'],dtype=np.uint8)
-    image_name=body['image_name']
-    boxes=torch.Tensor(body['boxes'])
-
-    head_pose = face_alignment(image, boxes)
-    global cnt
-    cnt+=1
-    ch.basic_ack(delivery_tag=method.delivery_tag)
-    end = time.time()
-    logger.info(f"send_task down,{cnt} images have been processed,{end-start} second used")
 
 cnt=0
-
-def recv_forward_task():
-    logger.info("recv_task start")
-    rmq_recv(my_callback)
-
-# 用户绘图的回调函数
-def my_draw_callback(ch, method, properties, body):
+def recv_draw(detect_res:DetectRes):
+    logger.info("get pics and draw it")
     start = time.time()
-    body = body.decode()
+    body = detect_res.dict()
     try:
-        body = json.loads(body)
+        image = np.array(body['image_mat'], dtype=np.uint8)
+        image_name = body['image_name']
+        boxes = torch.Tensor(body['boxes'])
+        learning = 0
+        # will return all people's info
+        head_pose = face_alignment(image, boxes)
+        axis = []
+        for yaw, pitch, roll, tdx, tdy, size in head_pose:
+            ax = draw_axis(image, yaw, pitch, roll, tdx=tdx, tdy=tdy, size=size)
+            axis.append(ax)
+
+        for ax in axis:
+            cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[2]), int(ax[3])),
+                     (0, 0, 255), 3)
+            cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[4]), int(ax[5])),
+                     (0, 255, 0), 3)
+            cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[6]), int(ax[7])),
+                     (255, 0, 0), 2)
+            if ax[7] <= ax[1]:
+                learning += 1
+                # cv2.putText(image,str(learning),(int(ax[0]), int(ax[1])),cv2.FONT_HERSHEY_PLAIN,1,(255,255,0),2)
+        # print(learning)
+        # cv2.putText(image,str(ax[8]),(int(ax[0]), int(ax[1])),cv2.FONT_HERSHEY_SIMPLEX,fontScale=0.5,color=(0,255,0),thickness=2)
+        image_name = image_name.split('/')[-1]
+        print(BaseConfig.OUTPUT_PATH + '/' + image_name)
+        cv2.imwrite(BaseConfig.OUTPUT_PATH + '/' + image_name, image)
+        logger.info('pic results written!')
     except:
-        ch.basic_ack(delivery_tag=method.delivery_tag)
         return
-    image = np.array(body['image_mat'], dtype=np.uint8)
-    image_name = body['image_name']
-    boxes = torch.Tensor(body['boxes'])
-
-    head_pose = face_alignment(image, boxes)
-    axis = []
-    for yaw, pitch, roll, tdx, tdy, size in head_pose:
-        ax = draw_axis(image, yaw, pitch, roll, tdx=tdx, tdy=tdy, size=size)
-        axis.append(ax)
-
-    for ax in axis:
-        cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[2]), int(ax[3])),
-                 (0, 0, 255), 3)
-        cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[4]), int(ax[5])),
-                 (0, 255, 0), 3)
-        cv2.line(image, (int(ax[0]), int(ax[1])), (int(ax[6]), int(ax[7])),
-                 (0, 255, 255), 2)
-
-    # image_name='test'
-    # print(image_name)
-    # cv2.imshow('image', image)
-    # cv2.waitKey(1)
-    image_name=image_name.split('/')[-1]
-    print(BaseConfig.OUT_PATH + '/' + image_name)
-    cv2.imwrite(BaseConfig.OUT_PATH + '/' + image_name, image)
-    logger.info('pic results written!')
 
     global cnt
     cnt += 1
-    ch.basic_ack(delivery_tag=method.delivery_tag)
     end = time.time()
     logger.info(f"draw down,{cnt} images have been drawed,{end - start} second used")
-    data={
-        "uuid":body['uuid'],
+    data = {
+        "uuid": body['uuid'],
         "count": cnt,
-        'image_name':image_name,
-        'detected':len(head_pose),
-        'learning':len(head_pose), #todo
-        "total_time":end-start,
+        'image_name': image_name,
+        'detected': len(head_pose),
+        'learning': learning,
+        "total_time": end - start,
     }
     # push log to db
-    res=requests.post(dispatcher_api.API['estimateinfo'],json=data)
+    res = requests.post(dispatcher_api.API['estimateinfo'], json=data)
 
-    end_time_info={
+    end_time_info = {
         'uuid': body['uuid'],  # 运行次数标识符,系统一次运行只接受一种uuid
         'count': cnt,
         'image_name': image_name
     }
     # push end time to db
-    requests.post(dispatcher_api.API['endtime'],json=end_time_info)
+    requests.post(dispatcher_api.API['endtime'], json=end_time_info)
     logger.info(f"collected down,result is {res.text}")
-
-def recv_draw():
-    logger.info("get pics and draw it")
-    rmq_recv(my_draw_callback)
-
 
 
 
