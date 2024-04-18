@@ -26,10 +26,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/test")
-async def preprocesstest():
-    return {"message": "preprocess test success"}
-
 @app.post("/testpicinfo")
 async def preprocesstest(picinfo:PicInfo):
     print(picinfo.dict())

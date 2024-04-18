@@ -62,7 +62,6 @@ create table if not exists estimateinfo(
 """
 
 # result info包括:
-# todo
 result_info_table_sql="""
 create table if not exists resultinfo(
     id INTEGER PRIMARY KEY,
@@ -105,6 +104,20 @@ create table if not exists endinfo(
     end_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
 )
 """
+
+# class ConfigInfo(BaseModel):
+#     uuid: str           # id
+#     weight:FLOAT      # 照片名称
+config_info_table_sql="""
+create table if not exists configinfo(
+    id INTEGER PRIMARY KEY,
+    uuid TEXT,
+    weight FLOAT,
+    end_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
+)
+"""
+
+
 cur.execute(
     image_info_table_sql
 )

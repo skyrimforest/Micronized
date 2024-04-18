@@ -1,0 +1,10 @@
+Pro01PreProcessor/inputpics/*
+Pro01PreProcessor/inputvideo/*
+Pro01PreProcessor/loginfo/*
+Pro02FaceDetector/loginfo/*
+Pro03PoseEstimator/loginfo/*
+Pro03PoseEstimator/outputpics/*
+Pro04DockerDispatcher/loginfo/*
+Pro04DockerDispatcher/dboperator/database.db
+
+

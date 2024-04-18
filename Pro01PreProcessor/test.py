@@ -6,7 +6,7 @@
 #
 #     time_now = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
 #
-#     # send time info to db
+#     # send time info to d b
 #     start_time_info = {
 #         'uuid': 'testuuid',  # 运行次数标识符,系统一次运行只接受一种uuid
 #         'count': 2333,

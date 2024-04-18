@@ -1,0 +1,5 @@
+# 文件夹下的内容
+loginfo/*
+
+# 数据库
+dboperator/database.db

@@ -1,4 +1,6 @@
 from fastapi import APIRouter
+
+import BaseConfig
 from Schema import collector_model
 from SkyLogger import get_logger
 from dboperator import query_service
@@ -12,6 +14,7 @@ router = APIRouter(
 
 @router.post("/test")
 async def picstest():
+    print(BaseConfig.APPLICATION_ID)
     logger.info("dispatcher collector test success")
     return {"message": "dispatcher collector test success"}
 
@@ -130,7 +133,5 @@ async def estimateinfo_collector():
         res_dict.append(temp)
     return {"success": True, "data": res_dict}
 
-
-# 容器调度相关
 
 

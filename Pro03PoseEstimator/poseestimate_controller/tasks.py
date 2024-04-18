@@ -5,7 +5,7 @@ import time
 import json
 import numpy as np
 from SkyLogger import get_logger
-from poseestimate_controller.FaceAlignment import FaceAlignmentCNN,draw_axis
+from poseestimate_controller.FaceAlignment import draw_axis
 from schema import *
 import torch
 import cv2
@@ -13,13 +13,14 @@ from API import dispatcher_api
 
 logger = get_logger("tasks")
 
-args = {
-    'lite_version': False,
-    'model': 'hopenet',
-    'batch_size': 1,
-    'device': 'cuda:0',
-}
-face_alignment = FaceAlignmentCNN(args)
+face_alignment=None
+# args = {
+#     'lite_version': False,
+#     'model': 'hopenet',
+#     'batch_size': 1,
+#     'device': 'cuda:0',
+# }
+# face_alignment = FaceAlignmentCNN(args)
 
 # 接收图片之后发送图片
 # 图片格式为:
