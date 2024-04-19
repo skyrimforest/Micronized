@@ -24,7 +24,8 @@ async def videotest():
 async def pure_sendpics_controller(fp:FilePath,background_task:BackgroundTasks):
     logger.info(f"{fp.filePath} starts sending pics")
     vidfilepath=BaseConfig.VID_INPUT_PATH+"/"+fp.filePath
-    background_task.add_task(video_sendpics_task,vidfilepath)
+    threshold=fp.threshold
+    background_task.add_task(video_sendpics_task,vidfilepath,threshold)
     return {
         "message": f"send {fp.filePath} pics start success",
     }

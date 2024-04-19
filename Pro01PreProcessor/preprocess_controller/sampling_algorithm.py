@@ -26,12 +26,12 @@ def resort_pic(result:int,lower_bound=6000,upper_bound=20000,ratio=1):
         return True
     return False
 
-def scale_resort(result:int,new_size:tuple):
+def scale_resort(result:int,threshold:int,new_size:tuple):
     # scale upper and down bound
     ratio=new_size[0]*new_size[1]/(1920*1080)
-    return resort_pic(result,ratio=ratio)
+    return resort_pic(result,lower_bound=threshold,ratio=ratio)
 
-def sampling(videoFilePath:str,uid:str)->list:
+def sampling(videoFilePath:str,uid:str,threshold:int)->list:
     logger.info("sampling start")
     file_path = videoFilePath
     video_name=videoFilePath.split('.')[0]
@@ -68,7 +68,7 @@ def sampling(videoFilePath:str,uid:str)->list:
             d2 = frame_fifference(frame2, frame1)
             result = frame_and(d1, d2)
             # if resort_pic(result):
-            if scale_resort(result,(height,width)):
+            if scale_resort(result,threshold,(width,height)):
                 count += 1
                 # image_info={
                 #     'uuid': uid,  # 运行次数标识符,系统一次运行只接受一种uuid

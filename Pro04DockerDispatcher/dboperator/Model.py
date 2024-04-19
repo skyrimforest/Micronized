@@ -138,6 +138,10 @@ cur.execute(
     end_info_table_sql
 )
 
+cur.execute(
+    config_info_table_sql
+)
+
 # current_time = datetime.now()
 # formatted_time = current_time.strftime('%Y-%m-%d %H:%M:%S')
 # test_insert_sql=

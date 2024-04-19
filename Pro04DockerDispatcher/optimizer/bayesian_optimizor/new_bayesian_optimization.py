@@ -205,6 +205,10 @@ class BayesianOptimization(Observable):
 
         See `TargetSpace.max` for more information.
         """
+        # todo
+        # 这里可以顺便记录一下BestConfig.yaml
+
+
         return self._space.max()
 
     @property

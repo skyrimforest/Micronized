@@ -64,7 +64,7 @@ def pics_sendpics_task(picsFilePath:str):
 
 
 # run in backen
-def video_sendpics_task(videoFilePath:str):
+def video_sendpics_task(videoFilePath:str,threshold):
     logger.info("video sendpics_task start")
     start_time = time.time()
     cnt=0
@@ -74,7 +74,7 @@ def video_sendpics_task(videoFilePath:str):
             file_path = videoFilePath + '/' + file
             logger.info(f"{file_path} start")
 
-            image_info_li=sampling(file_path,uid)
+            image_info_li=sampling(file_path,uid,threshold=threshold)
 
             for image_info in image_info_li:
                 real_image_info = {

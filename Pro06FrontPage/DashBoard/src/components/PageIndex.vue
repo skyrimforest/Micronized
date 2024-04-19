@@ -18,6 +18,9 @@ function jump2estimation() {
 function jump2dispatch() {
   router.push("dispatch")
 }
+function jump2monitor() {
+  router.push("monitor")
+}
 function jump2logout() {
   ElMessageBox.alert('已顺利退出系统！', '感谢您的使用', {
     confirmButtonText: 'OK',
@@ -100,22 +103,22 @@ function jump2feedback() {
             </el-sub-menu>
 
             <!-- 调度 -->
-            <el-sub-menu index="4" @click="jump2dispatch">
+            <!-- <el-sub-menu index="4" @click="jump2dispatch">
               <template #title>
                 <el-icon>
                   <DArrowRight />
                 </el-icon>
                 <span style="font-size: 20px">Docker Dispatch</span>
               </template>
-            </el-sub-menu>
+            </el-sub-menu> -->
 
             <!-- 测试 -->
-            <el-sub-menu index="4" @click="jump2test">
+            <el-sub-menu index="5" @click="jump2monitor">
               <template #title>
                 <el-icon>
                   <DArrowRight />
                 </el-icon>
-                <span style="font-size: 20px">测试页面</span>
+                <span style="font-size: 20px">Show Monitor</span>
               </template>
             </el-sub-menu>
 

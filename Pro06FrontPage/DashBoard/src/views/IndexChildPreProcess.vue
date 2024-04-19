@@ -4,37 +4,52 @@ import { ref } from "vue"
 import APIS_PRO01 from "../utils/api_pro01"
 import APIS_PRO04 from "../utils/api_pro04";
 import { ElNotification } from "element-plus";
-var inputtype = ref(1)
+var inputtype = ref(0)
 var filePath = ref<string>("")
 var imageinfo = ref(
-    // [{
-    // "id": 1,
-    // "uuid": "aptx4869",
-    // "count": 233,
-    // "total_time": 23,
-    // "start_time": "24/3/11 22:30:11"
-    // }]
 )
 function send_pic_name() {
-    axios.post(APIS_PRO01.pro01sendpics,
-        { filePath: filePath.value })
-        .then(res => {
-            console.log(res)
-        })
-        .catch(err => {
-            console.log(err)
-            ElNotification({
-                title: 'Error',
-                message: '数据请求失败',
-                type: 'error',
+    console.log(inputtype.value)
+    if (inputtype.value == 1) {
+        console.log("233331")
+        console.log(filePath.value)
+        axios.post(APIS_PRO01.pro01vidsendpics,
+            { filePath: filePath.value })
+            .then(res => {
+                console.log(res)
             })
-        })
+            .catch(err => {
+                console.log(err)
+                ElNotification({
+                    title: 'Error',
+                    message: '数据请求失败',
+                    type: 'error',
+                })
+            })
+    } else if (inputtype.value == 2) {
+        console.log("233332")
+        console.log(filePath.value)
+        const url="http://192.168.137.123:12000/video/sendpics"
+        axios.post(url,
+            { filePath: filePath.value })
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => {
+                console.log(err)
+                ElNotification({
+                    title: 'Error',
+                    message: '数据请求失败',
+                    type: 'error',
+                })
+            })
+    }
 }
-function get_db_info(){
+function get_db_info() {
     axios.get(APIS_PRO04.pro04getpicinfo)
         .then(res => {
             console.log(res)
-            imageinfo.value=res.data.data
+            imageinfo.value = res.data.data
         })
         .catch(err => {
             console.log(err)
@@ -111,7 +126,7 @@ function get_db_info(){
                     <!-- 预处理信息表 -->
                     <el-scrollbar height="50vh">
                         <el-table :data="imageinfo" style="width: 100%">
-                            <el-table-column type="index"/>
+                            <el-table-column type="index" />
                             <el-table-column prop="uuid" label="uid" />
                             <el-table-column prop="count" label="count" />
                             <el-table-column prop="total_time" label="time cost" />

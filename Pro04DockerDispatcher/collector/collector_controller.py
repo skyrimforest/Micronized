@@ -18,6 +18,8 @@ async def picstest():
     logger.info("dispatcher collector test success")
     return {"message": "dispatcher collector test success"}
 
+con,cur=query_service.get_cursor()
+
 # start time collect
 @router.post("/starttime")
 async def get_starttime(time_info:collector_model.StartTimeInfo):
@@ -26,7 +28,8 @@ async def get_starttime(time_info:collector_model.StartTimeInfo):
         VALUES (?, ?, ?,?)
         """
     data = (time_info.uuid, time_info.count, time_info.image_name,time_info.start_time)
-    query_service.do_insert(insert_starttime_sql, data)
+    # query_service.do_insert(insert_starttime_sql, data)
+    query_service.insert_ope(cur,insert_starttime_sql,data)
     return {"success": True}
 
 # end time collect
@@ -37,7 +40,8 @@ async def get_endtime(time_info:collector_model.EndTimeInfo):
         VALUES (?, ?, ?)
         """
     data = (time_info.uuid, time_info.count, time_info.image_name)
-    query_service.do_insert(insert_endtime_sql, data)
+    # query_service.do_insert(insert_endtime_sql, data)
+    query_service.insert_ope(cur,insert_endtime_sql,data)
     return {"success": True}
 
 # 预处理模块信息收集
@@ -48,7 +52,8 @@ async def imageinfo_collector(image_info:collector_model.ImageInfo):
     VALUES (?, ?, ?)
     """
     data=(image_info.uuid,image_info.count,image_info.total_time)
-    query_service.do_insert(insert_imageinfo_sql,data)
+    # query_service.do_insert(insert_imageinfo_sql,data)
+    query_service.insert_ope(cur,insert_imageinfo_sql,data)
     return {"success":True}
 
 @router.get("/imageinfo")
@@ -56,7 +61,8 @@ async def imageinfo_collector():
     select_imageinfo_sql="""
      select * from imageinfo
     """
-    result=query_service.do_select(select_imageinfo_sql)
+    # result=query_service.do_select(select_imageinfo_sql)
+    result=query_service.select_ope(cur,select_imageinfo_sql)
     res_dict=[]
     for row in result:
         temp={
@@ -77,7 +83,8 @@ async def detectinfo_collector(detect_info:collector_model.DetectInfo):
        VALUES (?, ?, ?, ?,?)
        """
     data = (detect_info.uuid, detect_info.count,detect_info.image_name, detect_info.detected,detect_info.total_time)
-    query_service.do_insert(insert_detectinfo_sql, data)
+    # query_service.do_insert(insert_detectinfo_sql, data)
+    query_service.insert_ope(cur,insert_detectinfo_sql, data)
     return {"success": True}
 
 @router.get("/detectinfo")
@@ -85,7 +92,8 @@ async def detectinfo_collector():
     select_detectinfo_sql = """
        select * from detectinfo
       """
-    result = query_service.do_select(select_detectinfo_sql)
+    # result = query_service.do_select(select_detectinfo_sql)
+    result = query_service.select_ope(cur,select_detectinfo_sql)
     res_dict = []
     for row in result:
         temp = {
@@ -109,7 +117,8 @@ async def estimateinfo_collector(estimate_info:collector_model.EstimateInfo):
           VALUES (?, ?, ?, ?, ?,?)
           """
     data = (estimate_info.uuid, estimate_info.count,estimate_info.image_name, estimate_info.detected,estimate_info.learning, estimate_info.total_time)
-    query_service.do_insert(insert_estimateinfo_sql, data)
+    # query_service.do_insert(insert_estimateinfo_sql, data)
+    query_service.insert_ope(cur,insert_estimateinfo_sql, data)
     return {"success": True}
 
 @router.get("/estimateinfo")
@@ -117,7 +126,8 @@ async def estimateinfo_collector():
     select_estimateinfo_sql = """
           select * from estimateinfo
          """
-    result = query_service.do_select(select_estimateinfo_sql)
+    # result = query_service.do_select(select_estimateinfo_sql)
+    result = query_service.select_ope(cur,select_estimateinfo_sql)
     res_dict = []
     for row in result:
         temp = {

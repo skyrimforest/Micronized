@@ -1,0 +1,27 @@
+bestconfig:
+    uuid: 325beb75-a8e0-45de-a49b-63989daa1b1f
+    transaction:
+      # preprocessor module
+        pro01memory: 100         # pro01的内存
+        pro01cpu: 10             # pro01的cpu
+        pro01reso: 5             # pro01的分辨率
+        pro01threshold: 6000     # pro01的关键帧阈值
+        pro01place: 0            # pro01的位置
+
+      # face detection module
+        pro02memory: 100         # pro02的内存
+        pro02cpu: 10             # pro02的cpu
+        pro02threshold: 0.7      # pro02的nms阈值
+        pro02place: 1            # pro02的位置
+
+      # pose estimation module
+        pro03memory: 100         # pro03的内存
+        pro03cpu: 10             # pro03的cpu
+        pro03place: 1            # pro03的位置
+
+      # docker dispatch module
+        pro04memory: 100         # pro04的内存
+        pro04cpu: 10             # pro04的cpu
+        pro04place: 1            # pro04的位置
+
+        pro05bandwidth: 10       # 带宽限制
