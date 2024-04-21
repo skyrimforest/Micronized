@@ -2,13 +2,12 @@ import time
 import numpy as np
 import requests
 
-from API import dispatcher_api,estimator_api
 from schema import *
+from API import dispatcher_api,estimator_api
 
 from SkyLogger import get_logger
 logger = get_logger("tasks")
 
-face_detector=None
 # args = {
 #     'net_type': 'mb_tiny_RFB_fd',
 #     'input_size': 480,

@@ -1,7 +1,8 @@
 import numpy as np
 
 from dboperator import query_service
-import benchmark
+from .benchmark import get_benchmark
+
 database_name='withlearning'
 # 获取预处理阶段的信息
 # 该次事务预处理阶段的总照片数与总时延
@@ -62,21 +63,22 @@ def cal_grade(uuid):
     frame_number,time_pre=eva_preprocess(uuid)
     people_number,time_det=eva_detection(uuid)
     learning_ratio,time_est=eva_estimation(uuid)
-    bench_mark=benchmark.get_benchmark()
+    bench_mark=get_benchmark()
     indexes=np.array([frame_number/bench_mark[0],people_number/bench_mark[1],learning_ratio/bench_mark[2],time_pre,time_det,time_est])
 
-    print(indexes)
     weight=np.array([
         1,1,1,
         -1,-1,-1
     ])
-
-    print(weight)
     grade=np.dot(indexes,weight)
     return grade
 
-
+# 获取最新uid
+def get_latest_uid():
+    con,cur=query_service.get_cursor(database_name)
+    get_uid_sql=f'select uuid from imageinfo order by id desc limit 1'
+    res=query_service.select_ope(cur,get_uid_sql)
+    print(res)
 
 if __name__ == '__main__':
-    grade=cal_grade('80d86399-63bd-4367-83ab-caefdbf33099')
-    print(grade)
+    get_latest_uid()

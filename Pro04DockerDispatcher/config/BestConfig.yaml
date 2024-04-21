@@ -1,5 +1,6 @@
 bestconfig:
     uuid: 325beb75-a8e0-45de-a49b-63989daa1b1f
+    generation: 0
     transaction:
       # preprocessor module
         pro01memory: 100         # pro01的内存
@@ -11,6 +12,7 @@ bestconfig:
       # face detection module
         pro02memory: 100         # pro02的内存
         pro02cpu: 10             # pro02的cpu
+        pro02reso: 5             # pro02的分辨率
         pro02threshold: 0.7      # pro02的nms阈值
         pro02place: 1            # pro02的位置
 

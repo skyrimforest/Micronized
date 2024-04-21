@@ -6,5 +6,7 @@ Pro03PoseEstimator/loginfo/*
 Pro03PoseEstimator/outputpics/*
 Pro04DockerDispatcher/loginfo/*
 Pro04DockerDispatcher/dboperator/database.db
+Pro05RabbitMQ/loginfo/*
+
 
 

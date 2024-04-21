@@ -14,4 +14,7 @@ class DetectRes(BaseModel):
     image_mat:list
     boxes:list
 
+class ConfigInfo(BaseModel):
+    reso:int
+    threshold:float
 

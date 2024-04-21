@@ -19,7 +19,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="withlearning" uuid="dfff77e0-92e4-4f2c-95e6-9d7112090333">
+    <data-source source="LOCAL" name="withlearning" uuid="5eb0cb08-4afb-4e77-aac1-549a931fb76e">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

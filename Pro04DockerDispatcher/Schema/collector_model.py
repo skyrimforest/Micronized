@@ -30,11 +30,11 @@ class EndTimeInfo(BaseModel):
     count: int          # 第几张
     image_name:str      # 照片名称
 
-class ConfigInfo(BaseModel):
+class ResultInfo(BaseModel):
     uuid: str           # 事务id
     weight:float        # 本次运行的权重
 
-class config(BaseModel):
+class SysConfig(BaseModel):
 
     pro01memory:float       # pro01的内存
     pro01cpu:float          # pro01的cpu
@@ -42,12 +42,10 @@ class config(BaseModel):
 
     pro02memory:float       # pro02的内存
     pro02cpu:float          # pro02的cpu
+    pro02reso: float        # 分辨率
     pro02threshold:float    # pro02的阈值
 
     pro03memory:float       # pro03的内存
     pro03cpu:float          # pro03的cpu
 
     bandwidth:int           # 带宽限制
-
-class target(BaseModel):
-    target:float            # 目标值
