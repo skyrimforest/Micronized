@@ -43,7 +43,8 @@ async def pure_sendpics_controller(fp:FilePath,background_task:BackgroundTasks):
     reso=convert_reso(all_config.reso)
     vidfilepath=BaseConfig.VID_INPUT_PATH+"/"+fp.filePath+'/'+str(reso)
     threshold=all_config.threshold
-    background_task.add_task(video_sendpics_task,vidfilepath,threshold)
+    task=fp.task
+    background_task.add_task(video_sendpics_task, vidfilepath, threshold, task)
     return {
         "message": f"send {fp.filePath} pics start success",
     }

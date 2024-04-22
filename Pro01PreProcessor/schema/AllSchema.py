@@ -2,6 +2,7 @@ from pydantic import BaseModel
 
 class FilePath(BaseModel):
     filePath: str
+    task:str
 
 class PicInfo(BaseModel):
     uuid: str

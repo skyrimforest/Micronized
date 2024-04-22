@@ -4,7 +4,8 @@ PREFIX='http://' + BaseConfig.ESTIMATOR_IP + ':' + BaseConfig.ESTIMATOR_PORT
 
 
 API={
-    'recvestimate': '/estimate/draw'
+    'recvestimate': '/estimate/draw',
+    'setestimate': '/estimate/sex'
 }
 
 for item in API:

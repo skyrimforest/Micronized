@@ -14,8 +14,12 @@ from .sampling_algorithm import sampling
 
 logger = get_logger("tasks")
 
-def send_detect(image_data:dict):
-    requests.post(detector_api.API['recvdetect'], json=image_data)
+def send_detect(image_data:dict,task:str):
+    if task == "pose":
+        requests.post(detector_api.API['recvdetect'], json=image_data)
+    elif task == "sex":
+        requests.post(detector_api.API['recvdetectcpu'], json=image_data)
+
     return True
 
 def pics_sendpics_task(picsFilePath:str):
@@ -64,7 +68,7 @@ def pics_sendpics_task(picsFilePath:str):
 
 
 # run in backen
-def video_sendpics_task(videoFilePath:str,threshold):
+def video_sendpics_task(videoFilePath:str,threshold:int,task:str):
     logger.info("video sendpics_task start")
     start_time = time.time()
     cnt=0
@@ -106,4 +110,3 @@ def video_sendpics_task(videoFilePath:str,threshold):
             }
     res=requests.post(dispatcher_api.API['imageinfo'],json=total_info)
     logger.info(f"collected down,result is {res.text}")
-
