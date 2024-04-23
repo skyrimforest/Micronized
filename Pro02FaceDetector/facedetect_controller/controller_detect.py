@@ -1,3 +1,4 @@
+import cv2
 from fastapi import APIRouter
 from starlette.background import BackgroundTasks
 import requests
@@ -5,7 +6,7 @@ import time
 import numpy as np
 
 from facedetect_controller.FaceDetection import FaceDetection
-from  face_detection import NewFaceDetection
+from facedetect_controller.face_detection import NewFaceDetection
 from schema import PicInfo,ConfigInfo
 from API import dispatcher_api,estimator_api
 
@@ -41,7 +42,6 @@ all_config=ConfigInfo(reso=3,threshold=0.7)
 # 'image_name': file,
 # 'image_mat': image.tolist(),
 # }
-cnt=0
 # 避免一开始就初始化模型
 def init_model():
     global all_config
@@ -56,31 +56,26 @@ def init_model():
     logger.info("model initialized success")
     return face_detector
 
-def do_detect(picinfo:PicInfo):
+def do_detect(picinfo:PicInfo,face_detector):
     start = time.time()
     body=picinfo.dict()
-    face_detector=init_model()
     # packet is wrong then drop it
-    try:
-        image = np.array(body['image_mat'], dtype=np.uint8)
-        image_name = body['image_name']
-        logger.info(f"{image_name} start to detect ")
-        boxes, labels, probs = face_detector(image)
-        image_info = {
-            'uuid': body['uuid'],
-            'image_name': image_name,
-            'image_mat': image.tolist(),
-            'boxes': boxes.tolist(),
-        }
-        # 发送给下一阶段流水线
-        send_analysis(image_info)
-    except:
-        return {
-            "success": False
-        }
+    image = np.array(body['image_mat'], dtype=np.uint8)
+    image_name = body['image_name']
+    cnt=body['count']
+    logger.info(f"{image_name} start to detect ")
+    boxes, labels, probs = face_detector(image)
+    image_info = {
+        'uuid': body['uuid'],
+        'count':cnt,
+        'image_name': image_name,
+        'image_mat': image.tolist(),
+        'boxes': boxes.tolist(),
+    }
+    # 发送给下一阶段流水线
+    send_analysis(image_info)
 
-    global cnt
-    cnt+=1
+
     end = time.time()
     logger.info(f"send_task down,{cnt} images have been processed,{end-start} second used")
 
@@ -94,48 +89,6 @@ def do_detect(picinfo:PicInfo):
 
     res=requests.post(dispatcher_api.API['detectinfo'],json=data)
     logger.info(f"collected down,result is {res.text}")
-    cnt = 0
-
-def do_detect_cpu(picinfo:PicInfo):
-    start = time.time()
-    body = picinfo.dict()
-    # packet is wrong then drop it
-    try:
-        face_detector=NewFaceDetection()
-        image = np.array(body['image_mat'], dtype=np.uint8)
-        image_name = body['image_name']
-        logger.info(f"{image_name} start to detect ")
-        boxes= face_detector(image)
-        image_info = {
-            'uuid': body['uuid'],
-            'image_name': image_name,
-            'image_mat': image.tolist(),
-            'boxes': boxes,
-        }
-        # 发送给下一阶段流水线
-        send_analysis(image_info)
-    except:
-        return {
-            "success": False
-        }
-
-    global cnt
-    cnt += 1
-    end = time.time()
-    logger.info(f"send_task down,{cnt} images have been processed,{end - start} second used")
-
-    data = {
-        "uuid": body['uuid'],
-        "count": cnt,
-        "image_name": image_name,
-        "detected": len(boxes),
-        "total_time": end - start
-    }
-
-    res = requests.post(dispatcher_api.API['detectinfo'], json=data)
-    logger.info(f"collected down,result is {res.text}")
-    cnt = 0
-
 
 def send_analysis(res:dict):
     requests.post(estimator_api.API['recvestimate'],json=res)
@@ -150,10 +103,10 @@ async def detecttest():
 #      receive info,
 #      give to backen
 #      backen send to next phase
-
+face_detector = init_model()
 @router.post("/recvdetect")
 async def recv_detect(picinfo:PicInfo,background_tasks: BackgroundTasks):
-    background_tasks.add_task(do_detect,picinfo)
+    background_tasks.add_task(do_detect,picinfo,face_detector)
     return {"success": True}
 
 @router.post("/changeconfig")
@@ -165,7 +118,10 @@ async def pure_sendpics_controller(ci:ConfigInfo):
         "message": f"config changed to {all_config} success",
     }
 
-@router.post("/recvdetectcpu")
-async def recv_detect_cpu(picinfo:PicInfo,background_tasks: BackgroundTasks):
-    background_tasks.add_task(do_detect_cpu,picinfo)
-    return {"success": True}
+
+# if __name__ == '__main__':
+#     face_detector=init_model()
+#     image=cv2.imread("img.png")
+#     for i in range(1,10):
+#         boxes, labels, probs = face_detector(image)
+#         print(boxes)

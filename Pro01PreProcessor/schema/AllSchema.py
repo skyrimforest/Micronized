@@ -6,6 +6,7 @@ class FilePath(BaseModel):
 
 class PicInfo(BaseModel):
     uuid: str
+    count:int
     image_name:str
     image_mat:list
 

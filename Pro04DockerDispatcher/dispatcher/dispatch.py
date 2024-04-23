@@ -4,7 +4,7 @@ import yaml
 from optimizer.optimization import my_optimizer,my_utility
 from dboperator import query_service
 from evaluator import evaluation
-from API import preprocess_api,detection_api,estimation_api
+from API import preprocess_api,detection_api
 from SkyLogger import get_logger
 
 logger = get_logger('dispatcher')
@@ -72,7 +72,6 @@ def write_best_config(uuid,config, target):
              """
     query_service.insert_ope(cur, insert_config_sql, data)
     query_service.delete_cursor(con, cur)
-
 
 # 给系统注册配置项,并返回新配置项
 def get_new_config(new_config:dict,new_target:float):

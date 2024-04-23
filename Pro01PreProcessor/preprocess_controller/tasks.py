@@ -79,23 +79,24 @@ def video_sendpics_task(videoFilePath:str,threshold:int,task:str):
             logger.info(f"{file_path} start")
 
             image_info_li=sampling(file_path,uid,threshold=threshold)
-
             for image_info in image_info_li:
+                image_name = image_info['image_name'].split('/')[-1]
                 real_image_info = {
                     'uuid': image_info['uuid'], #运行次数标识符,系统一次运行只接受一种uuid,str
-                    'image_name': image_info['image_name'], # 图片文件名称,格式为name.jpg等,str
+                    'count': image_info['count'],
+                    'image_name': image_name, # 图片文件名称,格式为name.jpg等,str
                     'image_mat': image_info['image_mat'].tolist(), # list格式的图片,list
                 }
                 cnt += 1
 
                 # requests.post send image info to next phase
-                send_detect(real_image_info)
+                send_detect(real_image_info,task)
 
                 # send each pic's start time info to db
                 start_time_info = {
                     'uuid': image_info['uuid'],  # 运行次数标识符,系统一次运行只接受一种uuid
                     'count': image_info['count'],
-                    'image_name': image_info['image_name'],
+                    'image_name': image_name,
                     'start_time': image_info['start_time']
                 }
                 requests.post(dispatcher_api.API['starttime'], json=start_time_info)

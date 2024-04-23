@@ -22,16 +22,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-@app.on_event('startup')
-def init_data():
-    args = {
-        'net_type': 'mb_tiny_RFB_fd',
-        'input_size': 480,
-        'threshold': 0.7,
-        'candidate_size': 1500,
-        'device': 'cuda:0',
-    }
-    controller_detect.face_detector = FaceDetection(args)
+# @app.on_event('startup')
+# def init_data():
+#     args = {
+#         'net_type': 'mb_tiny_RFB_fd',
+#         'input_size': 480,
+#         'threshold': 0.7,
+#         'candidate_size': 1500,
+#         'device': 'cuda:0',
+#     }
+#     controller_detect.face_detector = FaceDetection(args)
 
 @app.post("/facedetecttest")
 async def facedetecttest():

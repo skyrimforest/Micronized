@@ -4,7 +4,8 @@ db_path=BaseConfig.DB_PATH
 
 # 创建新的连接与游标
 def get_cursor(dbname):
-    db_path=BaseConfig.ROOT_DIR+'/dboperator/'+dbname+'.db'
+    global db_path
+    db_path=db_path+'/'+dbname+'.db'
     cnx = sqlite3.connect(db_path)
     cur = cnx.cursor()
     return cnx,cur
@@ -24,6 +25,8 @@ def select_ope(cur,select_sql):
 # 做insert操作
 def insert_ope(cur,insert_sql,data):
     cur.execute(insert_sql,data)
+    cur.commit()
+
 
 def do_insert(insert_sql,data):
     conn = sqlite3.connect(db_path+"/database.db")

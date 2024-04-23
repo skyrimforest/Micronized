@@ -14,7 +14,7 @@ router = APIRouter(
     responses={404: {"description": "Not found"}},
 )
 
-all_config=ConfigInfo(threshold=6000,reso=3)
+all_config=ConfigInfo(threshold=6000,reso=2)
 
 def convert_reso(reso):
     if reso==0:
@@ -41,7 +41,7 @@ async def pure_sendpics_controller(fp:FilePath,background_task:BackgroundTasks):
     global all_config
     logger.info(f"{fp.filePath} starts sending pics")
     reso=convert_reso(all_config.reso)
-    vidfilepath=BaseConfig.VID_INPUT_PATH+"/"+fp.filePath+'/'+str(reso)
+    vidfilepath=BaseConfig.VID_INPUT_PATH+"/"+fp.filePath+str(reso)
     threshold=all_config.threshold
     task=fp.task
     background_task.add_task(video_sendpics_task, vidfilepath, threshold, task)

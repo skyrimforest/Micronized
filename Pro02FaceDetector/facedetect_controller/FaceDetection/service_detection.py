@@ -3,7 +3,8 @@ sys.path.append('..')
 from .config.fd_config import define_img_size
 from .mb_tiny_RFB_fd import create_Mb_Tiny_RFB_fd, create_Mb_Tiny_RFB_fd_predictor
 import BaseConfig
-
+from .sigleton import singleton
+@singleton
 class FaceDetection:
 
     def __init__(self, args):

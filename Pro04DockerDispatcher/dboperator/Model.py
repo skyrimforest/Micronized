@@ -105,11 +105,11 @@ create table if not exists endinfo(
 )
 """
 
-# class ConfigInfo(BaseModel):
+# class TargetInfo(BaseModel):
 #     uuid: str           # id
-#     weight:FLOAT      # 照片名称
-config_info_table_sql="""
-create table if not exists configinfo(
+#     weight:FLOAT        # 权重
+target_info_table_sql="""
+create table if not exists targetinfo(
     id INTEGER PRIMARY KEY,
     uuid TEXT,
     weight FLOAT,
@@ -117,6 +117,57 @@ create table if not exists configinfo(
 )
 """
 
+
+# class SysConfig(BaseModel):
+#     pro01memory: float  # pro01的内存
+#     pro01cpu: float  # pro01的cpu
+#     pro01reso: float  # 分辨率
+#     pro01threshold: float
+#     pro01place: float
+#
+#     pro02memory: float  # pro02的内存
+#     pro02cpu: float  # pro02的cpu
+#     pro02reso: float  # 分辨率
+#     pro02threshold: float  # pro02的阈值
+#     pro02place: float
+#
+#     pro03memory: float  # pro03的内存
+#     pro03cpu: float  # pro03的cpu
+#     pro03place: float
+#
+#     pro04memory: float  # pro04的内存
+#     pro04cpu: float  # pro04的cpu
+#     pro04place: float  # pro04的位置
+#
+#     pro05bandwidth: int  # 带宽限制
+config_info_table_sql="""
+create table if not exists configinfo(
+    id INTEGER PRIMARY KEY,
+    pro01memory  FLOAT ,
+    pro01cpu FLOAT,
+    pro01reso FLOAT,  
+    pro01threshold FLOAT,
+    pro01place FLOAT,
+
+    pro02memory FLOAT, 
+    pro02cpu FLOAT, 
+    pro02reso FLOAT,  
+    pro02threshold FLOAT,  
+    pro02place FLOAT,
+
+    pro03memory FLOAT,  
+    pro03cpu FLOAT,
+    pro03place FLOAT,
+
+    pro04memory FLOAT,
+    pro04cpu FLOAT,
+    pro04place FLOAT,
+
+    pro05bandwidth INT,
+    weight FLOAT,
+    end_time TEXT DEFAULT (strftime('%Y-%m-%d %H:%M:%S','now', 'localtime'))
+)
+"""
 
 cur.execute(
     image_info_table_sql
@@ -136,6 +187,10 @@ cur.execute(
 
 cur.execute(
     end_info_table_sql
+)
+
+cur.execute(
+    target_info_table_sql
 )
 
 cur.execute(

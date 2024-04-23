@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 from starlette.background import BackgroundTasks
-from Schema.collector_model import config,target
-from SkyLogger import get_logger
-from evaluator import evaluation
-from dispatcher import dispatch
 
+import BaseConfig
+from SkyLogger import get_logger
+from dispatcher import dispatch
+import yaml
 logger = get_logger("dispatcher")
 
 router = APIRouter(
@@ -33,6 +33,14 @@ def optimization_task():
 @router.get("/sysstart")
 async def sys_start(background_tasks: BackgroundTasks):
     background_tasks.add_task(optimization_task)
+
+@router.get("/getconfig")
+async def get_config():
+    with open(BaseConfig.ROOT_DIR+'/config/BestConfig.yaml', 'r', encoding='utf-8') as yaml_file:
+        yaml_obj = yaml.load(yaml_file, Loader=yaml.FullLoader)
+    config = yaml_obj['bestconfig']['transaction']
+    print(config)
+    return {"success": True, "data": config}
 
 
 
